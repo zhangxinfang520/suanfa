@@ -1,12 +1,13 @@
 # -*- coding:utf-8 -*-
-#@Time : 2021-04-26 16:05
+#@Time : 2021-05-01 13:05
 #@Author: zxf_要努力
 #@File : 二叉树.py
 '''
 Python实现了二叉树
 '''
-class BTree(object):
 
+
+class BTree(object):
     def __init__(self,data=None,left=None,right=None):
         """
 
