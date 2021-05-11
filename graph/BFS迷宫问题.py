@@ -6,6 +6,7 @@ import queue
 print("Please input the size of the square:")
 n = int(input())
 map_ = [([0]*n) for i in range(n)] #创建地图
+print(map_[0])
 vis = [([0]*n) for i in range(n)] #访问标记
 front = [([0]*n) for i in range(n)] #路径
 s,t = [0,0],[n-1,n-1] #初始化猫(s)鼠(t)位置
@@ -23,14 +24,14 @@ def bfs(x,y):
         for i in range(0,4):
             xx = now[0] + xPos[i]
             yy = now[1] + yPos[i]
-            if xx<0 or xx>n-1 or yy<0 or yy>n-1:
+            if xx < 0 or xx> n-1 or yy< 0 or yy > n-1:
                 continue
             elif map_[xx][yy] == 1 or vis[xx][yy]==1:
                 continue
             else:
                 q.put([xx,yy])
                 vis[xx][yy]=1
-                front[xx][yy]=now # 记录上一次的位置
+                front[xx][yy] = now # 记录上一次的位置
     return
 def printRoad():
     q = queue.LifoQueue() #栈

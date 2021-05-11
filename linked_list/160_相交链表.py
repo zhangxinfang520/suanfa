@@ -57,6 +57,7 @@ class Solution:
             pre_B = re
             pre_A = pre_A.next
         return x
+
     '''答案解法'''
     def getintersectionNode(self,headA: ListNode, headB: ListNode)->ListNode:
         if not headA or not headB:

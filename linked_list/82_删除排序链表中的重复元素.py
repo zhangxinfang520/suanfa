@@ -40,7 +40,6 @@ class Solution:
         return dummpy.next
 
 
-        return head
 
 
 

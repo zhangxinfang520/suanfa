@@ -62,3 +62,5 @@
 # result.append(44)
 #
 # print(result)
+a = [1,2,3,5,6]
+print(a[::-1])

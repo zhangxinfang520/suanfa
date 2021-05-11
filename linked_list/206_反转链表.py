@@ -4,6 +4,7 @@
 #@File : 206_反转链表.py
 '''
 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
+答案 递归
 '''
 from linked_list.leetcode import generator_link,travel
 
@@ -33,6 +34,14 @@ class Solution:
 
         return p
 
-head = [1,2]
-travel(Solution().reverseList(generator_link(head)))
+
+    def reverselist(self,head:ListNode):
+        if  head.next==None : return head
+        newnode = self.reverselist(head.next)
+        head.next.next = head
+        head.next = None
+        return newnode
+
+head = [1,2,3,4,5]
+travel(Solution().reverselist(generator_link(head)))
 
