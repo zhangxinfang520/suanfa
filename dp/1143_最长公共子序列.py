@@ -49,6 +49,7 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i-1][j],dp[i][j-1])
         return dp[-1][-1]
+
     def longdp(self,text1: str, text2: str):
         str1,str2 = list(text1),list(text2)
 
