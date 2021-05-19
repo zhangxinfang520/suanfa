@@ -63,4 +63,4 @@
 #
 # print(result)
 a = [1,2,3,5,6]
-print(a[::-1])
+print( a > 0)
