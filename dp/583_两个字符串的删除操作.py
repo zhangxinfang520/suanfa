@@ -44,7 +44,7 @@ class Solution:
                 return max(dp(i,j-1),dp(i-1,j))
         count = dp(len(str1_list)-1,len(str2_list)-1)
         return len(str1_list)+len(str2_list)-2*count
-str1 = "dinitrophenylhydrazine"
 
+str1 = "dinitrophenylhydrazine"
 str2 = "benzalphenylhydrazone"
 print(Solution().minDistance(str1, str2))
