@@ -61,7 +61,8 @@ class DeformConv2d(nn.Module):
         q_lb = torch.cat([q_lt[..., :N],q_rb[..., N:]], dim=-1)
         q_rt = torch.cat([q_rb[..., :N],q_lt[..., N:]], dim=-1)
 
-        
+        #clip .p
+        p = torch.cat([torch.clamp(p[..., :N], 0, x.size(2)-1), torch.clamp(p[..., N:], 0, x.size(3)-1)], dim=-1)
 
 
 
