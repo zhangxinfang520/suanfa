@@ -19,20 +19,19 @@ boxes_list = [[
     [0.08, 0.49, 0.21, 0.89],
 ]]
 
-scores_list = [[0.9, 0.8, 0.2, 0.4, 0.7], [0.5, 0.8, 0.7, 0.3,0.2]]
-labels_list = [[0, 1, 0, 1, 1], [1, 1, 1, 0]]
+scores_list = [[0.9, 0.8, 0.2, 0.4, 0.7], [0.5, 0.8, 0.7, 0.3]]
+labels_list = [[1, 1, 1, 1, 1], [1, 1, 1, 0]]
 weights = [2, 1]
-
 
 
 iou_thr = 0.5
 skip_box_thr = 0.0001
 sigma = 0.1
 
+
+
 def single_nms(bboxes,scores,thresh=0.5):
     print(bboxes.size)
-
-
     x1 = bboxes[:,0]
     y1 = bboxes[:,1]
     x2 = bboxes[:,2]
@@ -60,7 +59,7 @@ def single_nms(bboxes,scores,thresh=0.5):
 
         inter = w * h
 
-        iou = inter/area[i]+area[order[1:]]+inter
+        iou = inter/(area[i]+area[order[1:]]-inter)
         ids = np.where(iou<thresh)[0]
         if ids.size == 0:
             break
@@ -68,12 +67,14 @@ def single_nms(bboxes,scores,thresh=0.5):
     return keep
 
 
-print(single_nms(bboxes=np.asarray(boxes_list[0]), scores=np.asarray(scores_list[1])))
+print(single_nms(bboxes=np.asarray(boxes_list[0]), scores=np.asarray(scores_list[0])))
 
-boxes, scores, labels = nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr)
-print(scores)
+#boxes, scores, labels = nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr)
+#print(scores)
+
+
 # print("--------------------")
-# boxes, scores, labels = soft_nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, sigma=sigma, thresh=skip_box_thr)
+#boxes, scores, labels = soft_nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, sigma=sigma, thresh=skip_box_thr)
 # print(scores)
 # print("--------------------")
 # boxes, scores, labels = non_maximum_weighted(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, skip_box_thr=skip_box_thr)
@@ -82,3 +83,8 @@ print(scores)
 # boxes, scores, labels = weighted_boxes_fusion(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, skip_box_thr=skip_box_thr)
 # print(scores)
 # print("--------------------")
+
+
+
+
+
