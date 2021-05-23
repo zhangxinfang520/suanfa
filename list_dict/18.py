@@ -14,29 +14,47 @@
 示例 2：
 输入：nums = [], target = 0
 输出：[]
+四个指针
+first second third end
+我使用的暴力简单的
+first second third 放在数组前面
+end 从后往前遍历
+
+另一种方法
+first second 放在前面
+third end 放在后面 镜像遍历
 '''
 class Solution(object):
     def fourSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        if len(nums) == 0:
+        if len(nums) ==0:
             return []
         nums.sort()
-        i0,itarget=0,0
-        for i,x in enumerate(nums):
-            if x <= 0:
-                i0 = i
-            elif x>=target:
-                itarget =i
-                break
-        return i0,itarget
+        n = len(nums)
+        result = list()
+        for first in range(n):
+            if first!=0 and nums[first] ==nums[first-1]:
+                continue
+
+            for second in range(first+1,n):
+                if second != (first+1) and nums[second] == nums[second - 1]:
+                    continue
+                for third in range(second+1,n):
+                    end = n - 1
+                    aim = target - nums[first]-nums[second]-nums[third]
+                    if third !=(second+1) and nums[third] ==nums[third-1]:
+                        continue
+                    while end > third and nums[end] > aim:
+                        end -= 1
+                    if end == third:
+                        continue
+                    if nums[end] == aim:
+                        result.append([nums[first],nums[second],nums[third],nums[end]])
+        return result
 
 
 
-nums = [1,0,-1,0,-2,2]
+
+nums = [-3,-2,-1,0,0,1,2,3]
 target = 0
 a = Solution()
-a.fourSum(nums,target)
+print(a.fourSum(nums, target))
