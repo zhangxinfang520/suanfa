@@ -42,8 +42,5 @@ class Solution:
                     dp[i][j] = dp[i-1][j] | dp[i-1][j-nums[i-1]]
         return dp[n][m]
 
-
-
-
 nums = [2,5,3,2]
 print(Solution().canPartition(nums))
