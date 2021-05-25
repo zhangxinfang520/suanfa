@@ -20,6 +20,8 @@
 首先对一个数组求和 如果 和为奇数 则 无法拆分成子集
 如果是偶数 只需要 存在数组之和等于其和一半即可
 
+背包问题含义 ：
+如果 dp[4][9] = true，其含义为：对于容量为 9 的背包，若只是用前 4 个物品，可以有一种方法把背包恰好装满
 '''
 from typing import List
 
@@ -31,16 +33,18 @@ class Solution:
         if m % 2 != 0:
             return False
         m //= 2
-        dp = [[False]*(m+1) for _ in range(n+1)]
+        dp = [[0]*(m+1) for _ in range(n+1)]
         for i in range(n + 1):
-            dp[i][0] = True
+            dp[i][0] = 1
         for i in range(1,n+1):
             for j in range(1,m+1):
                 if j < nums[i-1]:
                     dp[i][j] = dp[i-1][j]
                 else:
+                    # p[i-1][j-nums[i-1]] 你如果装了第 i 个物品，
+                    # 就要看背包的剩余重量 j - nums[i-1] 限制下是否能够被恰好装满
                     dp[i][j] = dp[i-1][j] | dp[i-1][j-nums[i-1]]
         return dp[n][m]
 
-nums = [2,5,3,2]
+nums = [2,1,1,2]
 print(Solution().canPartition(nums))
