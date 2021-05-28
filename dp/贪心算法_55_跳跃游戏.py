@@ -35,6 +35,17 @@ class Solution:
                 break
         return max_distance >= len(nums) - 1
 
+    def canJump1(self,nums: List[int]) -> bool:
+        if 0 not in nums:return True
+        if len(nums) == 1: return True
+        max_distance = nums[0]
+        for i in range(1,len(nums)-1):
+            if i <= max_distance:
+                max_distance = max(max_distance,nums[i]+i)
+            else:
+                break
+        return max_distance >= len(nums)-1
+
 
 nums = [3,2,1,0,4]
 print(Solution().canJump(nums))
