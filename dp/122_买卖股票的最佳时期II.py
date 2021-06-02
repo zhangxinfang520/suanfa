@@ -57,3 +57,6 @@ class Solution:
             dp_i_0 = max(dp_i_0,dp_i_1 + price)
             dp_i_1 = max(dp_i_1,temp - price)
         return dp_i_0
+
+prices = [1,2,3,4,5]
+print(Solution().maxProfit(prices))
