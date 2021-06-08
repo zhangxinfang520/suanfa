@@ -20,8 +20,6 @@
 在此处卖出 prices[5] = 9
 总利润: ((8 - 1) - 2) + ((9 - 4) - 2) = 8.
 
-
-
 '''
 from typing import List
 
