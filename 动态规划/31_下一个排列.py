@@ -32,8 +32,6 @@ class Solution:
         else:
             nums = res[i+1]
 
-
-
     def getall_sort(self,nums:List[int]):
         n = len(nums)
         res = list()
@@ -50,5 +48,35 @@ class Solution:
         traver()
         return res
 
-nums = [1, 2, 3]
-print(Solution().nextPermutation(nums))
+    def next_sort(self, nums: List[int]):
+        n = len(nums)
+        index = n-1
+        for i in range(n-1,1,-1):
+            if nums[i] > nums[i-1] :
+                index = i-1
+                break
+        if index == 0:
+            nums.reverse()
+            return
+        flag = index
+        for i in range(index,n):
+            if nums[index] > nums[i]:
+                flag = i
+                break
+
+        temp = nums[index]
+        nums[index] = nums[flag]
+        nums[flag] = temp
+        reverse_list = nums[index+1:]
+        reverse_list.reverse()
+        j = 0
+        for i in range(index+1,n):
+            nums[i] = reverse_list[j]
+            j +=1
+
+
+
+
+#nums = [1, 2, 3]
+nums = [1,2,5,2,3,4,2,1]
+print(Solution().next_sort(nums))
