@@ -34,3 +34,6 @@ class Solution:
 
         backtrack()
         return res
+
+nums = [1,2,3,5]
+Solution().permute(nums)
