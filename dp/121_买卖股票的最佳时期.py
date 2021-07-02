@@ -33,7 +33,7 @@ class Solution:
             max_price = 0
             for i in range(0,len(prices)-1):
                j = i+1
-               while j < len(prices):
+               while j <  len(prices):
                    if prices[i] < prices[j]:
                        max_price = max(max_price,prices[j]-prices[i])
                    j +=1
@@ -58,8 +58,6 @@ class Solution:
                 maxprofit = max(price-minprice,maxprofit)
                 minprice = min(minprice,price)
             return maxprofit
-
-
 
 
 list_num = [7,1,5,3,6,4]
