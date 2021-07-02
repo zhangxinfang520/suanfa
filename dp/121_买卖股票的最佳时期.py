@@ -21,7 +21,7 @@ from typing import List
 
 
 class Solution:
-    #吃方法会超时
+    #此方法会超时
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices) == 1:
             return 0
@@ -33,7 +33,7 @@ class Solution:
             max_price = 0
             for i in range(0,len(prices)-1):
                j = i+1
-               while j< len(prices):
+               while j < len(prices):
                    if prices[i] < prices[j]:
                        max_price = max(max_price,prices[j]-prices[i])
                    j +=1
