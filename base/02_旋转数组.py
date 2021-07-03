@@ -58,4 +58,5 @@ class Solution:
 
 nums = [1,2,3,4,5,6,7]
 k = 3
-print(Solution().other_method(nums,k))
+#print(Solution().other_method(nums,k))
+print(Solution().rotate(nums,k))

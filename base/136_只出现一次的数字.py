@@ -30,11 +30,14 @@ class Solution:
 
     def other_nums(self,nums):
         res = 0
+        nums.sort()
         for num in nums:
             res ^= num
+
         return res
 
 nums = [4,1,2,1,2]
-print(Solution().singleNumber(nums))
+nums = [1,2,3,4]
+#print(Solution().singleNumber(nums))
 print(Solution().other_nums(nums))
 
