@@ -32,11 +32,14 @@ class Solution(object):
         list = []
         for i in range(1,len(nums)):
             for j in range(0,i):
-                if nums[j] ==nums[i]:
+                if nums[j] == nums[i]:
                     continue
-                if nums[i] + nums[j] ==target:
+                if nums[i] + nums[j] == target:
                     list.append(i)
                     list.append(j)
         return list
+
+
+
 a =[2,7,11,15]
 print(Solution().twoSum(a,9))
