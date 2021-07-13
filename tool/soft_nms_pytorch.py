@@ -71,6 +71,8 @@ def soft_nms_pytorch(p:torch.tensor,thresh_iou,thresh_score,sigma,method):
 
 
     num = len(keep_new_score)
+    print(keep_new_score)
+
     keep_f = [keep[i] for i in range(num) if keep_new_score[i] > thresh_score]
     return keep_f
 
@@ -80,4 +82,7 @@ P = torch.tensor([[500.0, 500.0, 1000.0, 1000.0, 0.85],
                  [550.0, 375.0, 1050.0, 875.0, 0.75],
                  [800.0, 700.0, 1300.0, 1200.0, 0.80]])
 
-print(soft_nms_pytorch(P, thresh_iou=0.30, thresh_score=0.50, sigma=0.5, method=2))
+keep = soft_nms_pytorch(P, thresh_iou=0.30, thresh_score=0.50, sigma=0.5, method=2)
+n = len(keep)
+for i in range(n):
+    print(keep[i][-1])

@@ -74,7 +74,7 @@ print(single_nms(bboxes=np.asarray(boxes_list[0]), scores=np.asarray(scores_list
 
 
 # print("--------------------")
-#boxes, scores, labels = soft_nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, sigma=sigma, thresh=skip_box_thr)
+boxes, scores, labels = soft_nms(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, sigma=sigma, thresh=skip_box_thr)
 # print(scores)
 # print("--------------------")
 # boxes, scores, labels = non_maximum_weighted(boxes_list, scores_list, labels_list, weights=weights, iou_thr=iou_thr, skip_box_thr=skip_box_thr)

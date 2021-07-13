@@ -37,6 +37,7 @@ class FocalLoss(nn.Module):
         else:
             return F_loss
 
+
 class FocalLoss1(nn.Module):
     # Wraps focal loss around existing loss_fcn(), i.e. criteria = FocalLoss(nn.BCEWithLogitsLoss(), gamma=1.5)
     def __init__(self, loss_fcn, gamma=2, alpha=0.2):
