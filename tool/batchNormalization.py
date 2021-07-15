@@ -27,15 +27,22 @@ def bn_process(features:torch.tensor,eps=1e-5):
 
 
 if __name__ == '__main__':
-    p = torch.randn(2,2,2,2)
-    r1 = bn_process(p)
-    print(r1)
+    # p = torch.randn(2,2,2,2)
+    # r1 = bn_process(p)
+    # print(r1)
+    # 
+    # bn = nn.BatchNorm2d(2,eps=1e-5)
+    # 
+    # r2 = bn(p)
+    # print(r2)
+    test = torch.randn(1)
+    print(test.shape)
+    print(test)
+    b = torch.ones(1,1,1,1)
+    print(b)
+    a = test[None,:,None,None]
+    print(a.shape)
+    print(a)
 
-    bn = nn.BatchNorm2d(2,eps=1e-5)
-    nn.InstanceNorm2d
-    r2 = bn(p)
-    print(r2)
-
-    
 
 

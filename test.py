@@ -7,33 +7,20 @@ import torch
 #
 # print(out.shape)
 
-p = torch.tensor([[-1.5650,  2.0415, -0.1024, -0.5790]]
-       )
-print(p.shape)
-print(p[:,::])
-mean = torch.var_mean(p,dim=[0])[1]
-print(mean)
+# p = torch.tensor([[-1.5650,  2.0415, -0.1024, -0.5790]]
+#        )
+# print(p.shape)
+# print(p[:,::])
+# mean = torch.var_mean(p,dim=[0])[1]
+# print(mean)
 
-class Solution:
-    def isValidSudoku(self, board) :
-        """
+input = torch.randn(2,3,512,512)
+#dal = torch.nn.Conv2d(3,64,3,1,0)
+dal = torch.nn.Conv2d(3,64,3,1,0,2)
 
-        :param board:
-        :return:
-        """
-        row = len(board)
-        col = len(board[0])
+out = dal(input)
+print(out.shape)
 
-        for i in range(row):
-               for j in range(col):
-                      temp =board[i][j]
-                      if temp ==".":
-                             continue
-                      if not self.is_valid(board,i,j,temp):
-                             return False
-        return True
-    def is_valid(self,board,i,j,num,n=9):
-           pass
 
 
 

@@ -27,9 +27,9 @@ def group_norm(x:torch.tensor,
     channels_per_group = num_channels // num_groups
     new_tensor = []
     for t in x.split(channels_per_group,dim= 1):
-        var_mean = torch.var_mean(t,dim=[1,2,3],unbiased=False)
-        var = var_mean[0]
-        mean = var_mean[1]
+        var,mean = torch.var_mean(t,dim=[1,2,3],unbiased=False)
+        # var = var_mean[0]
+        # mean = var_mean[1]
         t = (t-mean[:,None,None,None]) / torch.sqrt(var[:,None,None,None]+eps)
         t = t * gamma + beat
         new_tensor.append(t)
