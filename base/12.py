@@ -22,7 +22,6 @@ class Solution(object):
         digits = []
         begin = 0
         flag = 1
-
         if s[begin] == " ":
             while s[begin] == " ":
                 begin += 1

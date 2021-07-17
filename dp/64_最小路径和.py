@@ -22,11 +22,11 @@ class Solution:
         n = len(grid[0])
         memo = [[-1]*n for _ in range(m) ]
         def dp(grid,i,j):
-            if i==0 and j==0:
+            if i == 0 and j == 0:
                 return grid[0][0]
             #如果索引出界，返回一个很大的值，
             # 保证在取min的时候不会被取到
-            if i<0 or j <0:
+            if i < 0 or j < 0:
                 return float('inf')
             if memo[i][j] !=-1:
                 return memo[i][j]

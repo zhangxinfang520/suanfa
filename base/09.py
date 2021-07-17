@@ -9,7 +9,6 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-
         key_str_value_count = collections.OrderedDict()
         for i in range(len(s)):
             if s[i] in key_str_value_count.keys():
