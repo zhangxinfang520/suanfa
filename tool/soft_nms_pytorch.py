@@ -65,6 +65,7 @@ P = torch.tensor([[500.0, 500.0, 1000.0, 1000.0, 0.85],
                  [800.0, 700.0, 1300.0, 1200.0, 0.80]])
 
 keep = pytorch_soft_nms(P, 0.30, 0.50, 0.5, method=2)
+print(keep)
 n = len(keep)
 for i in range(n):
     print(keep[i][-1])

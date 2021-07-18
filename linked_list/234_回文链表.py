@@ -22,7 +22,7 @@ class Solution:
         if not head or  not head.next:
             return True
         cut = 0
-        result =dict()
+        result = dict()
         while head:
             result[cut] = head.val
             head = head.next
@@ -42,7 +42,39 @@ class Solution:
 
         return True
 
+    def othermethod(self, head: ListNode) -> bool:
+        '''第二种方法 先找到 中间节点 然后将后半部分链表反转 然后进行比较'''
+        if not head and not head.next:
+            return True
+        #快慢指针
+        fast , slow = head, head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        #如果fast 不为空 证明listNode的长度为奇数
+        if fast:
+            slow = slow.next
+        slow = self.reverse(slow)
+        fast = head
+        while slow:
+            if slow.val != fast.val:
+                return False
+            slow = slow.next
+            fast = fast.next
+        return True
+
+    def reverse(self,head):
+        res = ListNode(0);
+        while head:
+            temp = head.next
+            head.next = res.next
+            res.next = head
+            head = temp
+        return res.next
+
+
+
 
 from  linked_list.leetcode import generator_link
-list_node = [1,2]
-print(Solution().isPalindrome(generator_link(list_node)))
+list_node = [1,2,1]
+print(Solution().othermethod(generator_link(list_node)))
