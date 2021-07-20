@@ -25,9 +25,7 @@ class Solution:
             return False
         #理论上每一个桶里的和都为 sum/k
         target = int(sum / k)
-
         bucket = [0] * k
-        
         a =  self.backtrack(nums,0,bucket,target)
         return a
 
@@ -37,7 +35,6 @@ class Solution:
                 if bucket[i] != target:
                     return False
             return True
-
         for i in range(len(bucket)):
             #预剪枝
             if bucket[i] + nums[index] > target:
@@ -51,8 +48,6 @@ class Solution:
 
             # nums[index]装入哪个桶都不行
         return False
-
-
 
 nums = [4, 3, 2, 3, 5, 2, 1]
 print(Solution().canPartitionKSubsets(nums, 4))

@@ -28,7 +28,6 @@ class Solution:
         track = list()
 
         self.all_sort(n,k,1,track,res)
-
         return res
 
     def all_sort(self, n, k, start, track, result):

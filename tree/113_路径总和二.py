@@ -45,6 +45,7 @@ class Solution:
         dfs(root,total)
         return ret
 
+
     def allpath(self,root:TreeNode):
         ret =list()
         path =list()
@@ -87,7 +88,7 @@ tree = TreeNode(5)
 tree.left = left_tree
 tree.right = node_8
 
-print(Solution().pathSum(tree, 22))
+#print(Solution().pathSum(tree, 22))
 print(Solution().allpath(tree))
 
 

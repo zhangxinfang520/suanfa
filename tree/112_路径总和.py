@@ -46,7 +46,6 @@ class Solution:
 
         if True in bool_list:
             return True
-
         return False
 
     def queque_Sum(self, root: TreeNode, targetSum: int):

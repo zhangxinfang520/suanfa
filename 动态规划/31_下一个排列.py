@@ -16,7 +16,7 @@
 输出：[1]
 '''
 from typing import List
-
+import copy
 
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
@@ -74,9 +74,24 @@ class Solution:
             nums[i] = reverse_list[j]
             j +=1
 
+    def get_all_sort(self,nums):
+        result = []
+        track = []
 
-
+        def backtrack(nums,track):
+            if len(track) == len(nums):
+                result.append(copy.deepcopy(track))
+                return
+            for i in range(0,len(nums)):
+                #// 排除不合法的选择
+                if nums[i] in track:
+                    continue
+                track.append(nums[i])
+                backtrack(nums,track)
+                track.pop()
+        backtrack(nums,track)
+        return result
 
 #nums = [1, 2, 3]
-nums = [1,2,5,2,3,4,2,1]
-print(Solution().next_sort(nums))
+nums = [1,2,5,3,4]
+print(Solution().get_all_sort(nums))

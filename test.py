@@ -1,4 +1,5 @@
 import torch
+import math
 # from deform_dcn_CONV_V2 import DeformConv2d
 #
 # input = torch.randn(2,64,128,128).cuda()
@@ -14,12 +15,23 @@ import torch
 # mean = torch.var_mean(p,dim=[0])[1]
 # print(mean)
 
-input = torch.randn(2,3,512,512)
-#dal = torch.nn.Conv2d(3,64,3,1,0)
-dal = torch.nn.Conv2d(3,64,3,1,0,2)
+# input = torch.randn(2,3,512,512)
+# #dal = torch.nn.Conv2d(3,64,3,1,0)
+# dal = torch.nn.Conv2d(3,64,3,1,0,2)
+#
+# out = dal(input)
+# print(out.shape)
+# 
+# a = 10
+# b = 15
+# out = math.gcd(a,b)
+# print(out)
 
-out = dal(input)
-print(out.shape)
+queque = [1,2,3,4,5,6]
+for i in range(len(queque)):
+    temp = queque[0]
+    print(queque.pop(0))
+
 
 
 

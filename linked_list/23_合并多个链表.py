@@ -33,8 +33,6 @@ class Solution(object):
         if left:
             r = self.merge(r,lists[-1])
         return r
-        
-        pass
     def merge(self,node1,node2):
         '''合并两个链表'''
         head = ListNode(0)
