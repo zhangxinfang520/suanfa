@@ -26,12 +26,17 @@ import math
 # b = 15
 # out = math.gcd(a,b)
 # print(out)
+#
+# queque = [1,2,3,4,5,6]
+# for i in range(len(queque)):
+#     temp = queque[0]
+#     print(queque.pop(0))
 
-queque = [1,2,3,4,5,6]
-for i in range(len(queque)):
-    temp = queque[0]
-    print(queque.pop(0))
-
+q = torch.ones(4,2)
+print(q)
+p = torch.randn(1,2)
+out = p + q
+print(out)
 
 
 
