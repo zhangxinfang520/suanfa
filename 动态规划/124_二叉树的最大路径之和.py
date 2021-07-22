@@ -52,4 +52,3 @@ class Solution:
             return ret
         dfs(root)
         return self.result
-
