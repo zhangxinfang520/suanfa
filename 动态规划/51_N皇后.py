@@ -13,10 +13,8 @@ import copy
 
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-
-
         if n ==1:return [["Q"]]
-        elif n==2 or n==3:return []
+        elif n==2 or n== 3:return []
         else:
             ans = list()
             res = [["."]*n for _ in range(n)]
@@ -60,6 +58,30 @@ class Solution:
 
             backtrace(0,res)
             return ans
+
+    def is_valid(self,board,row,col,n):
+        #检查上方
+        for i in range(row):
+            if board[i][col] == 'Q':
+                return False
+        #检查右斜上方
+        i = row - 1
+        j = col + 1
+        while i > 0 and j < n:
+            if board[i][j] == "Q":
+                return False
+            i -=1
+            j +=1
+        #检查 左斜上方
+        i = row - 1
+        j = col - 1
+        while i < 0 and j < 0:
+            if board[i][j] == "Q":
+                return False
+            i -= 1
+            j -= 1
+        return True
+
 
 
 print(Solution().solveNQueens(4))

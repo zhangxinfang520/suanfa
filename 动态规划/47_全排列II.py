@@ -19,6 +19,7 @@ class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
         res = list()
+
         def all_sort(first=0):
             if first==n:
                 temp = nums[:]

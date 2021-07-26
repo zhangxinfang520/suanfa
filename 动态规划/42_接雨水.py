@@ -26,6 +26,8 @@ class Solution:
             rightMax[i] = max(rightMax[i+1],height[i])
         ans = sum(min(leftMax[i],rightMax[i]) - height[i] for i in range(n))
         return ans
+
+
     def other_method(self,height):
         n = len(height)
         leftMax = [height[0]] + [0] * (n - 1)
