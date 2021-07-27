@@ -63,28 +63,10 @@ class Solution:
                 )
         return dp(len(word1)-1,len(word2)-1)
 
-    def minDistance1(self,s1,s2):
-        memo = dict()
-        def dp(i,j):
-            if (i,j) in memo:
-                return memo[(i,j)]
-            if i==-1:return
-
-            if s1[i] == s2[j]:
-                memo[(i,j)] = 1 + dp(i-1,j-1)
-            else:
-                memo[(i,j)] = min(
-                    dp(i-1,j)+1,
-                    dp(i,j-1)+1,
-                    dp(i-1,j-1)+1
-                )
-            return memo[(i,j)]
-        return dp(len(s1)-1,len(s2)-1)
-
 
 word1 = "horse"
 word2 = "ros"
-print(Solution().minDistance1(word1, word2))
+print(Solution().minDistance(word1, word2))
 
 
 
