@@ -386,7 +386,7 @@ class Adam(MiniBatchGradientDescent):
                 v_t_hat = v_t / (1 - self.beta_2 )
                 self.theta  -=self.eta / (np.sqrt(v_t_hat) + self.epsilon) * m_t_hat
             loss = 1 / (2* self.batch_size) * np.mean(errors)
-            print(loss)
+            #print(loss)
             delta_loss = loss - self.loss_[-1]
             self.loss_.append(loss)
             if np.abs(delta_loss) < self.tolerance:
