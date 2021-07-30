@@ -1,5 +1,7 @@
 import torch
 import math
+
+
 # from deform_dcn_CONV_V2 import DeformConv2d
 #
 # input = torch.randn(2,64,128,128).cuda()
@@ -27,18 +29,24 @@ import math
 # out = math.gcd(a,b)
 # print(out)
 #
-# queque = [1,2,3,4,5,6]
-# for i in range(len(queque)):
-#     temp = queque[0]
-#     print(queque.pop(0))
+def backetsort(nums):
+    max_values = max(nums)
+    n = len(nums)
+    backerNum = max_values + 1
+    count = [0] * backerNum
+    temp = [0] * n
+    for i in range(n):
+        count[nums[i]] +=1
+    for i in range(1,max_values+1):
+        count[i] = count[i-1] + count[i] #把计数容器count内的单个容器数值，遍历成依次叠加的
+    for i in range(n-1,-1,-1):
+        temp[count[nums[i]] - 1 ] = nums[i]
+        count[nums[i]] -=1  #计数器中对应的元素开始递减，完成循环后与初始计数器（每个元素的数量）保持一致。
 
-q = torch.ones(4,2)
-print(q)
-p = torch.randn(1,2)
-out = p + q
-print(out)
+    return temp
 
 
-
-
-
+if __name__ == '__main__':
+    nums = [2, 6, 4, 5, 1, 2, 3, 6]
+    print(sum(nums))
+    # print(backetsort(nums))
