@@ -1,52 +1,114 @@
-import torch
-import math
+# import sys
+# if __name__ == "__main__":
+#     # 读取第一行的T 表示有T组数据
+#     T = int(sys.stdin.readline().strip())
+#     ans = 0
+#     for i in range(T):
+#         # 读取n 表示长度
+#         n = int(sys.stdin.readline().strip())
+#         # 读取数组的值
+#         nums = list(map(int, sys.stdin.readline().strip().split()))
+#         #获取长度操作
+#         dp = [0] * n
+#         index = nums.index(max(nums))
+#         if index == len(nums)-1:
+#             print(index)
+#         else:
+#             for i in range(1,n):
+#                 for j in range(0,i):
+#                     if dp[j] == 1:
+#                         continue
+#                     if nums[i] > nums[j]:
+#                         dp[j] = 1
+#             print(sum(dp))
 
-
-# from deform_dcn_CONV_V2 import DeformConv2d
+#coding=utf-8
+# 本题为考试多行输入输出规范示例，无需提交，不计分。
+# import sys
 #
-# input = torch.randn(2,64,128,128).cuda()
-# dcn = DeformConv2d(64,64,kernel_size=3,stride=1,padding=1).cuda()
-# out = dcn(input)
 #
-# print(out.shape)
-
-# p = torch.tensor([[-1.5650,  2.0415, -0.1024, -0.5790]]
-#        )
-# print(p.shape)
-# print(p[:,::])
-# mean = torch.var_mean(p,dim=[0])[1]
-# print(mean)
-
-# input = torch.randn(2,3,512,512)
-# #dal = torch.nn.Conv2d(3,64,3,1,0)
-# dal = torch.nn.Conv2d(3,64,3,1,0,2)
+# if __name__ == "__main__":
+#     # 读取第一行的n
+#     n = int(sys.stdin.readline().strip())
+#     ans = 0
+#     for i in range(n):
+#         # 读取每一行
+#         line = sys.stdin.readline().strip()
+#         # 把每一行的数字分隔后转化成int列表
+#         values = list(map(int, line.split()))
+#         n = values[0]
+#         x_1, y_1, z_1, x_2, y_2 , z_2 = values[1:]
+#         a = [x_2,y_2,z_2]
+#         flag = a
+#         def dp(x,y,z):
+#             temp = [x,y,z]
+#             temp.sort()
 #
-# out = dal(input)
-# print(out.shape)
-# 
-# a = 10
-# b = 15
-# out = math.gcd(a,b)
-# print(out)
-#
-def backetsort(nums):
-    max_values = max(nums)
-    n = len(nums)
-    backerNum = max_values + 1
-    count = [0] * backerNum
-    temp = [0] * n
-    for i in range(n):
-        count[nums[i]] +=1
-    for i in range(1,max_values+1):
-        count[i] = count[i-1] + count[i] #把计数容器count内的单个容器数值，遍历成依次叠加的
-    for i in range(n-1,-1,-1):
-        temp[count[nums[i]] - 1 ] = nums[i]
-        count[nums[i]] -=1  #计数器中对应的元素开始递减，完成循环后与初始计数器（每个元素的数量）保持一致。
-
-    return temp
+#             if temp == a:
+#                 return True
+#             if (x > n) or (y > n) or (z > n) or (x < 0) or (y < 0) or (z < 0) :
+#                 return False
+#             if dp( 2*y - x+ 1, 2*x-y-1,z) or dp(y,x,z) or dp(x,z,y) or dp(z,y,x)   :
+#                 return True
+#         b = [x_1,z_1,y_1]
+#         b.sort()
+#         if a == b :
+#             print('Yes')
+#         elif dp(x_1,y_1,z_1):
+#             print('Yes')
+#         else:
+#             print('No')
 
 
-if __name__ == '__main__':
-    nums = [2, 6, 4, 5, 1, 2, 3, 6]
-    print(sum(nums))
-    # print(backetsort(nums))
+# #coding=utf-8
+# # # 本题为考试多行输入输出规范示例，无需提交，不计分。
+# # import sys
+# # if __name__ == "__main__":
+# #     # 读取第一行的n
+# #     n,m = sys.stdin.readline().strip().split()
+# #     n,m = int(n), int(m)
+# #     a_nums = list(map(int,sys.stdin.readline().strip().split()))
+# #     b_nums = list(map(int,sys.stdin.readline().strip().split()))
+# #
+# #     def fx(x,sum_):
+# #         sum_ += int(x)
+# #         fla = 1
+# #         for i in range(m):
+# #             fla = int(fla *(b_nums[i] - x))
+# #         sum_ += fla
+# #         return sum_ - x
+# #     dp = 0
+# #     for coin in range(n):
+# #         if fx(a_nums[coin],0) > 0:
+# #             dp +=1
+# #     print(dp)
+
+import sys
+
+if __name__ == "__main__":
+    # 读取第一行的n
+    n, m = sys.stdin.readline().strip().split()
+    n, m = int(n), int(m)
+    a_nums = list(map(int, sys.stdin.readline().strip().split()))
+    b_nums = list(map(int, sys.stdin.readline().strip().split()))
+
+
+    def fx(x, sum_):
+        sum_ += int(x)
+        fla = 1
+        for i in range(m):
+            fla *= (b_nums[i] - x)
+        sum_ += fla
+        return sum_ - x
+    dp = 0
+    memo = dict()
+    for coin in a_nums:
+        if coin in memo.keys():
+            if memo[coin] > 0:
+                dp += 1
+        else:
+            memo[coin] = fx(coin,0)
+            if memo[coin] > 0:
+                dp += 1
+    print(dp)
+
