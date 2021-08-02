@@ -13,7 +13,7 @@ def two_mat_mul(mat1,mat2):
         for x in range(col2):
             sum_one_row = 0
             for j in range(col1):
-                sum_one_row += mat1[i][j] *mat2[j][x]
+                sum_one_row += mat1[i][j] * mat2[j][x]
             result[i][x] = sum_one_row
     return result
 
