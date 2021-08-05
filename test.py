@@ -83,32 +83,32 @@
 # #             dp +=1
 # #     print(dp)
 
-import sys
-
-if __name__ == "__main__":
-    # 读取第一行的n
-    n, m = sys.stdin.readline().strip().split()
-    n, m = int(n), int(m)
-    a_nums = list(map(int, sys.stdin.readline().strip().split()))
-    b_nums = list(map(int, sys.stdin.readline().strip().split()))
-
-
-    def fx(x, sum_):
-        sum_ += int(x)
-        fla = 1
-        for i in range(m):
-            fla *= (b_nums[i] - x)
-        sum_ += fla
-        return sum_ - x
-    dp = 0
-    memo = dict()
-    for coin in a_nums:
-        if coin in memo.keys():
-            if memo[coin] > 0:
-                dp += 1
-        else:
-            memo[coin] = fx(coin,0)
-            if memo[coin] > 0:
-                dp += 1
-    print(dp)
+# import sys
+#
+# if __name__ == "__main__":
+#     # 读取第一行的n
+#     n, m = sys.stdin.readline().strip().split()
+#     n, m = int(n), int(m)
+#     a_nums = list(map(int, sys.stdin.readline().strip().split()))
+#     b_nums = list(map(int, sys.stdin.readline().strip().split()))
+#
+#
+#     def fx(x, sum_):
+#         sum_ += int(x)
+#         fla = 1
+#         for i in range(m):
+#             fla *= (b_nums[i] - x)
+#         sum_ += fla
+#         return sum_ - x
+#     dp = 0
+#     memo = dict()
+#     for coin in a_nums:
+#         if coin in memo.keys():
+#             if memo[coin] > 0:
+#                 dp += 1
+#         else:
+#             memo[coin] = fx(coin,0)
+#             if memo[coin] > 0:
+#                 dp += 1
+#     print(dp)
 

@@ -4,6 +4,10 @@
 #@File : nms_pytorch.py
 
 import torch
+import numpy as np
+
+from  ensemble_boxes import  *
+
 
 def pytorch_nms(p:torch.tensor,threshold:float):
     '''
@@ -124,6 +128,7 @@ def pytroch_soft_nms(p:torch.tensor,thresh_iou=0.75,
         union = (rem_areas - inter) + areas[S_idx]
         # 计算 S 与 P中其他预测框的 IoU, shape: tensor([n-1,1])
         IoU = inter / union
+        print(IoU)
 
         if method == 1 or method == 2:
             if method == 1:
@@ -156,13 +161,23 @@ def pytroch_soft_nms(p:torch.tensor,thresh_iou=0.75,
         return keep
 
 
+array_list =[[0.500, 0.500, 1.0, 1.0, 0.85],
+                 [0.615, 0.600, 1.0, 1.0, 0.95],
+                 [0.550, 0.375, 1.0, 0.875, 0.75],
+                 [0.80, 0.70, 1.0, 1.0, 0.80]]
 
 
-P = torch.tensor([[500.0, 500.0, 1000.0, 1000.0, 0.85],
-                 [615.0, 600.0, 1115.0, 1100.0, 0.95],
-                 [550.0, 375.0, 1050.0, 875.0, 0.75],
-                 [800.0, 700.0, 1300.0, 1200.0, 0.80]])
 
-keep = pytroch_soft_nms(P, thresh_iou=0.30, thresh_score=0.50, sigma=0.5, method=2)
+def a(nums):
+    return  nums / 2000
+
+# a = list(map(a,array_list[0]))
+# print(a)
+P = torch.tensor(array_list)
+#
+#
+keep = pytroch_soft_nms(P, thresh_iou=0.30, thresh_score=0.50, sigma=0.5, method=1)
 print(keep)
+#
+print(nms(P[:, :-1].numpy().reshape(1,-1,4), P[:, -1:].numpy().reshape(1,-1,1), [np.ones(len(array_list))], iou_thr=0.5))
 
