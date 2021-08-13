@@ -27,7 +27,10 @@ def quick_sort(nums):
     return nums
 
 
-# if __name__ == '__main__':
-#
-# 	nums = [7,1,3,6,8,4]
-# 	print(quick_sort(num
+if __name__ == '__main__':
+    a = "abec"
+    b = "abcdd"
+    print(a  in b)
+
+	# nums = [7,1,3,6,8,4]
+	# print(quick_sort(num

@@ -22,42 +22,6 @@
 #                         dp[j] = 1
 #             print(sum(dp))
 
-#coding=utf-8
-# 本题为考试多行输入输出规范示例，无需提交，不计分。
-# import sys
-#
-#
-# if __name__ == "__main__":
-#     # 读取第一行的n
-#     n = int(sys.stdin.readline().strip())
-#     ans = 0
-#     for i in range(n):
-#         # 读取每一行
-#         line = sys.stdin.readline().strip()
-#         # 把每一行的数字分隔后转化成int列表
-#         values = list(map(int, line.split()))
-#         n = values[0]
-#         x_1, y_1, z_1, x_2, y_2 , z_2 = values[1:]
-#         a = [x_2,y_2,z_2]
-#         flag = a
-#         def dp(x,y,z):
-#             temp = [x,y,z]
-#             temp.sort()
-#
-#             if temp == a:
-#                 return True
-#             if (x > n) or (y > n) or (z > n) or (x < 0) or (y < 0) or (z < 0) :
-#                 return False
-#             if dp( 2*y - x+ 1, 2*x-y-1,z) or dp(y,x,z) or dp(x,z,y) or dp(z,y,x)   :
-#                 return True
-#         b = [x_1,z_1,y_1]
-#         b.sort()
-#         if a == b :
-#             print('Yes')
-#         elif dp(x_1,y_1,z_1):
-#             print('Yes')
-#         else:
-#             print('No')
 
 
 # #coding=utf-8
@@ -111,4 +75,85 @@
 #             if memo[coin] > 0:
 #                 dp += 1
 #     print(dp)
+# nums1 = [1,2,2,1]
+# nums2 = [2,2]
+# nums1 = set(nums1)
+# nums2 = set(nums2)
+#
+# print(nums1.intersection(nums2))
+
+
+class Solution:
+    def Solve1(self , s ):
+        # write code here
+        if len(list(s)) == len(list(set(list(s)))) or len(s) == 1 or len(s) ==0:
+            return ""
+        res = ""
+        list_str = list(s)
+        n = len(list_str)
+        for i in range(1,n):
+            for j in range(i):
+                if s[i] == s[j]:
+                    res = res if len(res) > len(s[j:i+1]) else s[j:i+1]
+        return res
+
+    def Solve(self , s ):
+        # write code here
+        if len(list(s)) == len(list(set(list(s)))) or len(s) == 1 or len(s) ==0:
+            return ""
+        res = []
+        list_str = list(s)
+        n = len(list_str)
+        rk = -1
+        occ = list()
+        for i in range(n):
+            if i != 0:
+                occ.remove(s[i - 1])
+            while rk + 1 < n and s[rk + 1] not in occ:
+                # 不断地移动右指针
+                occ.append(s[rk + 1])
+                rk += 1
+            if rk + 1 < n and s[rk + 1] == occ[0]:
+                res = res if len(res) > len(occ) else occ + list(s[rk + 1])
+        re = ""
+        if len(res):
+            for x in res:
+                re +=str(x)
+        return re
+
+
+class Solution1:
+    def largestNumber(self , nums ):
+        if len(nums)==0:
+            return 0
+        nums.sort()
+        nums1 = []
+        nums2 = []
+        zero_nums = 0
+        n = len(nums)
+        for i in range(n):
+            if nums[i] >= 10 :
+                nums2.append(nums[i])
+
+            elif nums[i] < 10 and nums[i]!=0 :
+                nums1.append(nums[i])
+            else:
+                zero_nums +=1
+        s = ""
+        nums2.sort(reverse=True)
+        nums1.sort(reverse=True)
+        for x in nums1+nums2:
+            s += str(x)
+        if zero_nums !=0:
+            for x in range(zero_nums):
+                s +="0"
+        return s
+S = [10,20,0,0,0]
+print(Solution1().largestNumber(S))
+
+# S = "banawawrghljanswa"
+# print(Solution().Solve(S))
+
+
+
 
