@@ -13,9 +13,9 @@
 出二维数组的一个排列，使得其中有最长的单调递增子序列（两个维度都递增）
 定义 dp[i]dp[i] 表示以 ii 结尾的最长递增子序列的长度。对每个 ii 的位置，遍历 [0, i)[0,i)，
 对两个维度同时判断是否是严格递增（不可相等）的，如果是的话，dp[i] = max(dp[i], dp[j] + 1)dp[i]=max(dp[i],dp[j]+1)
-
-
 '''
+
+
 class Solution(object):
     def maxEnvelopes(self, envelopes):
         """
@@ -25,10 +25,10 @@ class Solution(object):
         envelopes = sorted(envelopes,key=lambda x:(x[0],-x[1]))
         N = len(envelopes)
 
-        dp = [1]*N
+        dp = [1] * N
         for i in range(N):
             for j in range(i):
-                if envelopes[j][1] <envelopes[i][1]:
+                if envelopes[j][1] < envelopes[i][1]:
                     dp[i] = max(dp[i],dp[j]+1)
         return  max(dp)
 

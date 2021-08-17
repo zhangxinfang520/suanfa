@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea822e74-e9c0-4280-b636-4ee0dceb4ac2" name="Default Changelist" comment="2021-06-16 每日一题比较简单">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="41a2cf2f-b883-4c35-930d-a54d2e0bdfb2" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\mianshi_project\python\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="3eadc206-7a06-4730-bc0c-c5cef5cac4e3" />
+  <component name="ProjectId" id="1jU9J9F9YxvKDlp6VVJj55qLNEM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mianshi_project\python\动态规划" />
+      <recent name="F:\mianshi_project\python\tree" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mianshi_project\python\linked_list" />
+      <recent name="F:\mianshi_project\python\dp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.34_ 在排序数组中查找元素的第一个和最后一个位置">
+    <configuration name="34_ 在排序数组中查找元素的第一个和最后一个位置" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list_dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_dict/34_ 在排序数组中查找元素的第一个和最后一个位置.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_无重复字符的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/3_无重复字符的最长子串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_连续子数组的最大和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/3_连续子数组的最大和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3__和为s的连续正数序列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/3__和为s的连续正数序列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="背包问题_518_零钱兑换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/背包问题_518_零钱兑换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.3_无重复字符的最长子串" />
+      <item itemvalue="Python.3__和为s的连续正数序列" />
+      <item itemvalue="Python.背包问题_518_零钱兑换" />
+      <item itemvalue="Python.34_ 在排序数组中查找元素的第一个和最后一个位置" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.34_ 在排序数组中查找元素的第一个和最后一个位置" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.背包问题_518_零钱兑换" />
+        <item itemvalue="Python.3__和为s的连续正数序列" />
+        <item itemvalue="Python.3_无重复字符的最长子串" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea822e74-e9c0-4280-b636-4ee0dceb4ac2" name="Default Changelist" comment="" />
+      <created>1603847728235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603847728235</updated>
+      <workItem from="1603847729588" duration="1226000" />
+      <workItem from="1604322169286" duration="87000" />
+      <workItem from="1604413532544" duration="49000" />
+      <workItem from="1604638438114" duration="1613000" />
+      <workItem from="1604924647358" duration="2450000" />
+      <workItem from="1614776714864" duration="2941000" />
+      <workItem from="1614835244849" duration="4526000" />
+      <workItem from="1614861980329" duration="140000" />
+      <workItem from="1614946803346" duration="2158000" />
+      <workItem from="1615029237040" duration="3046000" />
+      <workItem from="1615084361645" duration="54000" />
+      <workItem from="1615112095291" duration="5248000" />
+      <workItem from="1615209584862" duration="1398000" />
+      <workItem from="1615254203465" duration="25000" />
+      <workItem from="1615641943990" duration="2022000" />
+      <workItem from="1617164199069" duration="4494000" />
+      <workItem from="1617191619998" duration="24000" />
+      <workItem from="1617335544522" duration="751000" />
+      <workItem from="1617367652488" duration="2331000" />
+      <workItem from="1617620945085" duration="79000" />
+      <workItem from="1617623074096" duration="2300000" />
+      <workItem from="1617627762403" duration="7000" />
+      <workItem from="1617628126006" duration="27000" />
+      <workItem from="1617628223539" duration="187000" />
+      <workItem from="1617628495147" duration="4000" />
+      <workItem from="1617719857722" duration="656000" />
+      <workItem from="1617720551025" duration="27000" />
+      <workItem from="1617957779323" duration="79000" />
+      <workItem from="1617959182610" duration="353000" />
+      <workItem from="1618127423435" duration="4640000" />
+      <workItem from="1618570158354" duration="1411000" />
+      <workItem from="1618664234879" duration="2275000" />
+      <workItem from="1618747162891" duration="6253000" />
+      <workItem from="1618892023481" duration="1135000" />
+      <workItem from="1618900559303" duration="33000" />
+      <workItem from="1618915410183" duration="4406000" />
+      <workItem from="1619352128018" duration="6490000" />
+      <workItem from="1619400487517" duration="2816000" />
+      <workItem from="1619406847549" duration="23000" />
+      <workItem from="1619419801828" duration="18748000" />
+      <workItem from="1619484844025" duration="5803000" />
+      <workItem from="1619572332067" duration="1509000" />
+      <workItem from="1619575549440" duration="45000" />
+      <workItem from="1619845136295" duration="58000" />
+      <workItem from="1619845233759" duration="5990000" />
+      <workItem from="1619857361548" duration="6219000" />
+      <workItem from="1619919594028" duration="13603000" />
+      <workItem from="1620033292785" duration="10830000" />
+      <workItem from="1620093242343" duration="5215000" />
+      <workItem from="1620178332862" duration="24772000" />
+      <workItem from="1620266763876" duration="20000" />
+      <workItem from="1620289439604" duration="13000" />
+      <workItem from="1620310429908" duration="4356000" />
+      <workItem from="1620389000130" duration="5496000" />
+      <workItem from="1620438583499" duration="9000" />
+      <workItem from="1620475274595" duration="3956000" />
+      <workItem from="1620547254273" duration="64000" />
+      <workItem from="1620567374601" duration="1174000" />
+      <workItem from="1620570157524" duration="167000" />
+      <workItem from="1620621884969" duration="5644000" />
+      <workItem from="1620660249850" duration="154000" />
+      <workItem from="1620697822596" duration="863000" />
+      <workItem from="1620734287959" duration="3425000" />
+      <workItem from="1620784098491" duration="11056000" />
+      <workItem from="1620805877144" duration="16000" />
+      <workItem from="1620885237097" duration="2696000" />
+      <workItem from="1620895120012" duration="2296000" />
+      <workItem from="1620912774686" duration="78000" />
+      <workItem from="1620956566484" duration="3455000" />
+      <workItem from="1621148169144" duration="1979000" />
+      <workItem from="1621168986149" duration="389000" />
+      <workItem from="1621169401852" duration="1895000" />
+      <workItem from="1621171340722" duration="796000" />
+      <workItem from="1621255005710" duration="32000" />
+      <workItem from="1621255053904" duration="5199000" />
+      <workItem from="1621321858468" duration="1967000" />
+      <workItem from="1621298416738" duration="3905000" />
+      <workItem from="1621339707448" duration="3909000" />
+      <workItem from="1621392486283" duration="39000" />
+      <workItem from="1621430229262" duration="3449000" />
+      <workItem from="1621497747471" duration="9000" />
+      <workItem from="1621501225412" duration="4065000" />
+      <workItem from="1621519521644" duration="2261000" />
+      <workItem from="1621557607238" duration="10336000" />
+      <workItem from="1621674881211" duration="5248000" />
+      <workItem from="1621684295997" duration="5914000" />
+      <workItem from="1621736434116" duration="11509000" />
+      <workItem from="1621766415480" duration="514000" />
+      <workItem from="1621837747182" duration="2864000" />
+      <workItem from="1621849756557" duration="17000" />
+      <workItem from="1621857220409" duration="3998000" />
+      <workItem from="1621861961625" duration="859000" />
+      <workItem from="1621933888599" duration="37000" />
+      <workItem from="1621941616942" duration="7418000" />
+      <workItem from="1621996207433" duration="12000" />
+      <workItem from="1622031073009" duration="3413000" />
+      <workItem from="1622116038702" duration="5392000" />
+      <workItem from="1622208109488" duration="4479000" />
+      <workItem from="1622344924061" duration="58000" />
+      <workItem from="1622422168253" duration="33000" />
+      <workItem from="1622425436108" duration="615000" />
+      <workItem from="1622427425080" duration="10000" />
+      <workItem from="1622469443144" duration="3789000" />
+      <workItem from="1622558544267" duration="1595000" />
+      <workItem from="1622560169442" duration="29000" />
+      <workItem from="1622595869644" duration="39000" />
+      <workItem from="1622639920940" duration="2499000" />
+      <workItem from="1622685340380" duration="50000" />
+      <workItem from="1622699200561" duration="1037000" />
+      <workItem from="1622714685406" duration="493000" />
+      <workItem from="1622720165208" duration="640000" />
+      <workItem from="1622797580920" duration="216000" />
+      <workItem from="1622902002935" duration="3576000" />
+      <workItem from="1622946764050" duration="111000" />
+      <workItem from="1622992402687" duration="1068000" />
+      <workItem from="1623028385294" duration="24000" />
+      <workItem from="1623029130716" duration="3495000" />
+      <workItem from="1623048213115" duration="2673000" />
+      <workItem from="1623075830345" duration="800000" />
+      <workItem from="1623116904609" duration="90000" />
+      <workItem from="1623162909714" duration="2054000" />
+      <workItem from="1623205214073" duration="998000" />
+      <workItem from="1623206885556" duration="37000" />
+      <workItem from="1623250715282" duration="2066000" />
+      <workItem from="1623287249694" duration="14000" />
+      <workItem from="1623336780737" duration="801000" />
+      <workItem from="1623401979499" duration="1971000" />
+      <workItem from="1623410733487" duration="64000" />
+      <workItem from="1623728984426" duration="31000" />
+      <workItem from="1623739361860" duration="8000" />
+      <workItem from="1623765762535" duration="211000" />
+      <workItem from="1623807055264" duration="3279000" />
+      <workItem from="1623826690264" duration="2822000" />
+      <workItem from="1623855731235" duration="1529000" />
+      <workItem from="1623909860630" duration="1150000" />
+      <workItem from="1623918115175" duration="303000" />
+      <workItem from="1623936389049" duration="5473000" />
+      <workItem from="1623943877582" duration="184000" />
+      <workItem from="1624005970399" duration="46000" />
+      <workItem from="1624029935184" duration="2670000" />
+      <workItem from="1624096501454" duration="55000" />
+      <workItem from="1624113062659" duration="3818000" />
+      <workItem from="1624173956889" duration="24000" />
+      <workItem from="1624185710107" duration="9000" />
+      <workItem from="1624199539260" duration="128000" />
+      <workItem from="1624199687894" duration="111000" />
+      <workItem from="1624200777595" duration="2991000" />
+      <workItem from="1624236829819" duration="4790000" />
+      <workItem from="1624243298305" duration="927000" />
+      <workItem from="1624264647124" duration="38000" />
+      <workItem from="1624268444090" duration="708000" />
+      <workItem from="1624285077640" duration="3665000" />
+      <workItem from="1624324479960" duration="1713000" />
+      <workItem from="1624514936908" duration="3432000" />
+      <workItem from="1624538821998" duration="4674000" />
+      <workItem from="1624581717211" duration="150000" />
+      <workItem from="1624883534691" duration="3787000" />
+      <workItem from="1624890398162" duration="29000" />
+      <workItem from="1624930403288" duration="2615000" />
+      <workItem from="1624935533940" duration="1514000" />
+      <workItem from="1624951929459" duration="8000" />
+      <workItem from="1624970041030" duration="7100000" />
+      <workItem from="1625052255331" duration="3803000" />
+      <workItem from="1625061337745" duration="49000" />
+      <workItem from="1625061484718" duration="1031000" />
+      <workItem from="1625121476244" duration="4289000" />
+      <workItem from="1625142122800" duration="3836000" />
+      <workItem from="1625149545545" duration="1467000" />
+      <workItem from="1625192760750" duration="335000" />
+      <workItem from="1625193612534" duration="4289000" />
+      <workItem from="1625233480534" duration="5624000" />
+      <workItem from="1625239656028" duration="39000" />
+      <workItem from="1625243142618" duration="1441000" />
+      <workItem from="1625318341504" duration="2090000" />
+      <workItem from="1625323690776" duration="1734000" />
+      <workItem from="1625406293851" duration="5134000" />
+      <workItem from="1625483172637" duration="4923000" />
+      <workItem from="1625576448850" duration="4063000" />
+      <workItem from="1625619390524" duration="133000" />
+      <workItem from="1625655187039" duration="5471000" />
+      <workItem from="1625663442066" duration="665000" />
+      <workItem from="1625664426916" duration="193000" />
+      <workItem from="1625668383847" duration="27000" />
+      <workItem from="1625740270217" duration="3626000" />
+      <workItem from="1625796544281" duration="5255000" />
+      <workItem from="1625883086412" duration="5217000" />
+      <workItem from="1625889273645" duration="567000" />
+      <workItem from="1625963988813" duration="4364000" />
+      <workItem from="1625990828244" duration="18000" />
+      <workItem from="1626068763789" duration="4010000" />
+      <workItem from="1626093626659" duration="97000" />
+      <workItem from="1626093745618" duration="39000" />
+      <workItem from="1626139327409" duration="6533000" />
+      <workItem from="1626158071699" duration="159000" />
+      <workItem from="1626180126461" duration="10000" />
+      <workItem from="1626225213466" duration="17104000" />
+      <workItem from="1626258406256" duration="857000" />
+      <workItem from="1626266912870" duration="47000" />
+      <workItem from="1626308360261" duration="8739000" />
+      <workItem from="1626329192103" duration="760000" />
+      <workItem from="1626350247260" duration="2848000" />
+      <workItem from="1626398474957" duration="3351000" />
+      <workItem from="1626415583451" duration="2214000" />
+      <workItem from="1626418275661" duration="74000" />
+      <workItem from="1626491322765" duration="7042000" />
+      <workItem from="1626570834017" duration="10449000" />
+      <workItem from="1626657932795" duration="5660000" />
+      <workItem from="1626681691822" duration="726000" />
+      <workItem from="1626698817726" duration="8000" />
+      <workItem from="1626745207460" duration="14340000" />
+      <workItem from="1626767129789" duration="818000" />
+      <workItem from="1626772879818" duration="798000" />
+      <workItem from="1626871735713" duration="2841000" />
+      <workItem from="1626916753719" duration="5707000" />
+      <workItem from="1627003259562" duration="5764000" />
+      <workItem from="1627030729325" duration="10000" />
+      <workItem from="1627128978949" duration="3056000" />
+      <workItem from="1627176647516" duration="22407000" />
+      <workItem from="1627297607074" duration="2851000" />
+      <workItem from="1627348854386" duration="19849000" />
+      <workItem from="1627438756693" duration="2620000" />
+      <workItem from="1627442972865" duration="1048000" />
+      <workItem from="1627459109681" duration="1128000" />
+      <workItem from="1627466850168" duration="3782000" />
+      <workItem from="1627476115316" duration="1498000" />
+      <workItem from="1627478487905" duration="10000" />
+      <workItem from="1627523399563" duration="988000" />
+      <workItem from="1627528052202" duration="2216000" />
+      <workItem from="1627551814565" duration="5653000" />
+      <workItem from="1627614136156" duration="11302000" />
+      <workItem from="1627642466611" duration="3652000" />
+      <workItem from="1627692067816" duration="108000" />
+      <workItem from="1627697622418" duration="4248000" />
+      <workItem from="1627727543987" duration="1458000" />
+      <workItem from="1627730716348" duration="5737000" />
+      <workItem from="1627736878204" duration="2281000" />
+    </task>
+    <task id="LOCAL-00021" summary="2021-05-18 两道题">
+      <created>1621430296327</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621430296327</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2021-05-19 一道题">
+      <created>1621434342705</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621434342705</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2021-05-20 不会这一题">
+      <created>1621521859928</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621521859928</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2021-05-20 不会这一题">
+      <created>1621558944010</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621558944010</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2021-05-22 最长递增序列">
+      <created>1621682766841</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621682766841</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2021-05-23 背包问题">
+      <created>1621756831482</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621756831482</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2021-05-24 背包问题一道 没弄懂">
+      <created>1621861917369</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621861917369</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2021-05-24 背包问题一道 没弄懂">
+      <created>1621862725827</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1621862725827</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2021-05-24 子序列问题 有一道不懂">
+      <created>1621949154947</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621949154947</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2021-05-26 贪心算法 思路不晓得 但是比较简单">
+      <created>1622034337574</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1622034337574</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2021-05-27 贪心算法 同样是思路问题 现在还未了解">
+      <created>1622122003887</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1622122003887</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2021-05-28 贪心算法 同样是思路问题 今天效率低">
+      <created>1622214951881</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622214951882</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2021-05-31 贪心算法 买卖股票 思路 自己的方法超时">
+      <created>1622473209006</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622473209006</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2021-06-01 贪心算法 买卖股票 没弄懂">
+      <created>1622559950806</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622559950807</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2021-06-02 贪心算法 买卖股票 没弄懂">
+      <created>1622641835711</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1622641835711</updated>
+    </task>
+    <task id="LOCAL-00036" summary="2021-06-05 贪心算法 买卖股票 没弄懂">
+      <created>1622905632374</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1622905632374</updated>
+    </task>
+    <task id="LOCAL-00037" summary="2021-06-05 贪心算法 这一题蛮简单的">
+      <created>1623076526357</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1623076526357</updated>
+    </task>
+    <task id="LOCAL-00038" summary="2021-06-08 打乱数组 还有待研究">
+      <created>1623164877270</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1623164877270</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2021-06-08 只一道题 比较简单 注意特殊值">
+      <created>1623252558739</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623252558739</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2021-06-10 敷衍了一下">
+      <created>1623337505201</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623337505202</updated>
+    </task>
+    <task id="LOCAL-00041" summary="2021-06-15 每日一题比较简单">
+      <created>1623765920863</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1623765920863</updated>
+    </task>
+    <task id="LOCAL-00042" summary="2021-06-15 每日一题比较简单">
+      <created>1623857470930</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1623857470930</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2021-06-17 注意python的变量引用">
+      <created>1623943916041</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623943916041</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2021-06-18 还有一种方法 明天完善">
+      <created>1624032193656</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1624032193656</updated>
+    </task>
+    <task id="LOCAL-00045" summary="2021-06-19 全排列">
+      <created>1624117806903</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1624117806903</updated>
+    </task>
+    <task id="LOCAL-00046" summary="2021-06-21 回溯法不会">
+      <created>1624288698298</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1624288698298</updated>
+    </task>
+    <task id="LOCAL-00047" summary="2021-06-24 不会">
+      <created>1624546641319</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1624546641319</updated>
+    </task>
+    <task id="LOCAL-00048" summary="2021-06-28 比较难">
+      <created>1624887599501</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1624887599501</updated>
+    </task>
+    <task id="LOCAL-00049" summary="2021-06-30 每日一题比较简单">
+      <created>1625129679979</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1625129679979</updated>
+    </task>
+    <task id="LOCAL-00050" summary="2021-07-02 多次更新">
+      <created>1625192841727</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1625192841728</updated>
+    </task>
+    <task id="LOCAL-00051" summary="2021-07-02 技巧多">
+      <created>1625239350651</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1625239350652</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2021-07-03 没弄懂">
+      <created>1625326798574</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1625326798575</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2021-07-07复习以前的">
+      <created>1625664087711</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1625664087712</updated>
+    </task>
+    <task id="LOCAL-00054" summary="2021-07-10 leetcode比较简单 nms和soft-nms">
+      <created>1625889666576</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1625889666577</updated>
+    </task>
+    <task id="LOCAL-00055" summary="2021-07-12 今日题比较简单">
+      <created>1626073587884</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1626073587885</updated>
+    </task>
+    <task id="LOCAL-00056" summary="2021-07-13 今日题比较简单">
+      <created>1626158109311</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1626158109312</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2021-07-14 今日题比较简单 更新BN IN LN GN">
+      <created>1626246710017</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1626246710018</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2021-07-14 今日题比较简单">
+      <created>1626328898543</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1626328898544</updated>
+    </task>
+    <task id="LOCAL-00059" summary="2021-07-17 多个链表合并">
+      <created>1626505021170</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1626505021170</updated>
+    </task>
+    <task id="LOCAL-00060" summary="2021-07-18 链表有没有环 数学推导">
+      <created>1626590221903</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1626590221903</updated>
+    </task>
+    <task id="LOCAL-00061" summary="2021-07-19 组合">
+      <created>1626766518935</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1626766518936</updated>
+    </task>
+    <task id="LOCAL-00062" summary="2021-06-16 每日一题比较简单">
+      <created>1626874476167</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1626874476167</updated>
+    </task>
+    <task id="LOCAL-00063" summary="2021-06-16 每日一题比较简单">
+      <created>1626957634016</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1626957634016</updated>
+    </task>
+    <task id="LOCAL-00064" summary="2021-07-26 好久没更新了 颓废了">
+      <created>1627300398979</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1627300398979</updated>
+    </task>
+    <task id="LOCAL-00065" summary="2021-07-27 刷题面试">
+      <created>1627394291441</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1627394291441</updated>
+    </task>
+    <task id="LOCAL-00066" summary="2021-06-16 每日一题比较简单">
+      <created>1627477599629</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1627477599629</updated>
+    </task>
+    <task id="LOCAL-00067" summary="2021-07-30 刷题面试">
+      <created>1627634831756</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1627634831757</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2021-07-30 刷题面试">
+      <created>1627634848430</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1627634848430</updated>
+    </task>
+    <task id="LOCAL-00069" summary="2021-07-31 笔试">
+      <created>1627739285833</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1627739285834</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021-06-15 每日一题比较简单" />
+    <MESSAGE value="2021-06-17 注意python的变量引用" />
+    <MESSAGE value="2021-06-18 还有一种方法 明天完善" />
+    <MESSAGE value="2021-06-19 全排列" />
+    <MESSAGE value="2021-06-21 回溯法不会" />
+    <MESSAGE value="2021-06-24 不会" />
+    <MESSAGE value="2021-06-28 比较难" />
+    <MESSAGE value="2021-06-30 每日一题比较简单" />
+    <MESSAGE value="2021-07-02 多次更新" />
+    <MESSAGE value="2021-07-02 技巧多" />
+    <MESSAGE value="2021-07-03 没弄懂" />
+    <MESSAGE value="2021-07-07复习以前的" />
+    <MESSAGE value="2021-07-10 leetcode比较简单 nms和soft-nms" />
+    <MESSAGE value="2021-07-12 今日题比较简单" />
+    <MESSAGE value="2021-07-13 今日题比较简单" />
+    <MESSAGE value="2021-07-14 今日题比较简单 更新BN IN LN GN" />
+    <MESSAGE value="2021-07-14 今日题比较简单" />
+    <MESSAGE value="2021-07-17 多个链表合并" />
+    <MESSAGE value="2021-07-18 链表有没有环 数学推导" />
+    <MESSAGE value="2021-07-19 组合" />
+    <MESSAGE value="2021-07-26 好久没更新了 颓废了" />
+    <MESSAGE value="2021-07-27 刷题面试" />
+    <MESSAGE value="2021-06-16 每日一题比较简单" />
+    <MESSAGE value="2021-07-30 刷题面试" />
+    <MESSAGE value="2021-07-31 笔试" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-07-31 笔试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Inspections" timestamp="1620178480421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Inspections/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1620178480421" />
+    <state x="361" y="74" key="#Notifications" timestamp="1626329163968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1626329163968" />
+    <state x="224" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625194126922">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1291" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619435780290" />
+    <state x="224" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619934120827" />
+    <state x="224" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1625194126922" />
+    <state x="634" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623807119458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1623807119458" />
+    <state x="521" y="254" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1621322236857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="521" y="254" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1621322236857" />
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1627739284389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1439" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626957632657" />
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739284389" />
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625192963788" />
+    <state width="1387" height="589" key="DebuggerActiveHint" timestamp="1627459418131">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1387" height="589" key="DebuggerActiveHint/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627459418131" />
+    <state width="1109" height="466" key="DebuggerActiveHint/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627377420787" />
+    <state width="1109" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1620630974854" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1619857809154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619857809154" />
+    <state x="549" y="170" width="614" height="642" key="FileChooserDialogImpl" timestamp="1627642480368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627642480368" />
+    <state x="374" y="143" width="614" height="642" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625619534582" />
+    <state x="545" y="291" key="Github.CreatePullRequestDialog" timestamp="1625127157663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="291" key="Github.CreatePullRequestDialog/0.0.1536.824@0.0.1536.824" timestamp="1625127157663" />
+    <state x="620" y="339" key="Github.Dialog.Accounts.Choose" timestamp="1626590492770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="339" key="Github.Dialog.Accounts.Choose/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1626590492770" />
+    <state x="631" y="308" key="Github.ShareDialog" timestamp="1619845413505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="631" y="308" key="Github.ShareDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619845413505" />
+    <state x="614" y="119" key="Github.UntrackedFilesDialog" timestamp="1619845437726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619845437726" />
+    <state width="1493" height="180" key="GridCell.Tab.0.bottom" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="180" key="GridCell.Tab.0.center" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="180" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="180" key="GridCell.Tab.0.left" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="180" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="180" key="GridCell.Tab.0.right" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="180" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="175" key="GridCell.Tab.1.bottom" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="175" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="175" key="GridCell.Tab.1.center" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="175" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="175" key="GridCell.Tab.1.left" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="175" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state width="1493" height="175" key="GridCell.Tab.1.right" timestamp="1627739521171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="55" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1627736504418" />
+    <state width="1493" height="175" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739521171" />
+    <state width="1492" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625743965333" />
+    <state x="582" y="125" key="RollbackChangesDialog" timestamp="1626328907628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="582" y="125" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1626328907628" />
+    <state x="582" y="125" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1624546678427" />
+    <state x="219" y="12" width="1274" height="709" key="SettingsEditor" timestamp="1626766527278">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1646" y="15" width="1181" height="710" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621756894808" />
+    <state x="219" y="12" width="1262" height="709" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1626766527278" />
+    <state x="219" y="12" width="1274" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625194132463" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1627739463099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1469" y="187" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626957643059" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627739463099" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625192887060" />
+    <state width="566" height="388" key="XDebugger.FullValuePopup" timestamp="1624886264024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="388" key="XDebugger.FullValuePopup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1624886264024" />
+    <state x="-1144" y="0" width="893" height="561" maximized="true" key="dock-window-1" timestamp="1627297623055">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1144" y="0" width="893" height="561" maximized="true" key="dock-window-1/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627297623055" />
+    <state x="781" y="2" width="755" height="822" key="find.popup" timestamp="1624970174703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="781" y="2" width="755" height="822" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1624970174703" />
+    <state x="465" y="214" key="git4idea.merge.GitPullDialog" timestamp="1626158127442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1626158127442" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1627734835114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1381" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621339733613" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1627734835114" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625194493180" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/1207.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/973.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/338.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/338.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/354.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/232.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/232.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/503.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/131.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/6.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/88.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/88.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/56.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/CONV2D.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/asda.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/构建二叉树.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/101_对称二叉树.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/105_前序和中序构建二叉树.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/106_从中序和后序构建二插树.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/112_路径总和.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/100_判断两个树是否相等.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/单向列表.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/2_两数相加.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/19_删除链表的倒数第 N 个结点.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/24_两两交换链表中的节点.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/82_删除排序链表中的重复元素.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/160_相交链表.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graph/BFS迷宫问题.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/203_移出链表指定的元素.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/206_反转链表.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/234_回文链表.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/509_斐波那契数列问题.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/匈牙利算法.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/931_下降路径最小和.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/1143_最长公共子序列.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/516_最长回文子序列.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/背包问题.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/背包问题_322_零钱问题.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/背包问题_518_零钱兑换.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/背包问题_518_零钱兑换.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/18.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/yolov5的图片的缩放.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/背包问题_415_分割等和子集.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/子序列问题_72_编辑距离.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/子序列问题_53_最大子序列和.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/贪心问题_435_无重叠区间.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/贪心算法_452_用最少数量的箭引爆气球.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/贪心算法_55_跳跃游戏.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/121_买卖股票的最佳时期.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/122_买卖股票的最佳时期II.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/28_实现strStr().py</url>
+          <line>54</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/28_实现strStr().py</url>
+          <line>31</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/46.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/698_划分为k个相等的子集.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/698_划分为k个相等的子集.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/Focalloss.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/78_子集.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/111_二叉树的最小深度.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/752.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/752.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/01_删除数组中的重复项.py</url>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/ration_to_xyxyxyxy.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/02_旋转数组.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/372_超级次方.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/06.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/07_旋转图像.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/nms_pytorch.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/nms_pytorch.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/645_错误的集合.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/soft_nms_pytorch.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/batchNormalization.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/12.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/12.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/12.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/27_移除元素.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/27_移除元素.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/GroupNormalization.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/CONV2D.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/13.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linked_list/23_合并两个有序链表I.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/113_路径总和二.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/31_下一个排列.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/40_组合总和II.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/14_报数问题.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/42_接雨水.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/5_最长回文子串.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/动态规划/51_N皇后.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/梯度下降算法比较.py</url>
+          <line>386</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/4_寻找两个正序数组的中位数.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/NonLocalBlock.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/CBAM.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/5_最长回文子串.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/20_有效的括号.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/最长递增子序列_打印出序列.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/梯度下降算法比较.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/41_缺失的第一整数.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/41_缺失的第一整数.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/169_多数元素.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/3_无重复字符的最长子串.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/3__和为s的连续正数序列.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dp/3_连续子数组的最大和.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/list_dict/34_ 在排序数组中查找元素的第一个和最后一个位置.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="new_arr_tuple[97]" />
+        <watch expression="temp_list" />
+        <watch expression="inorder" />
+        <watch expression="q.next" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$100_.coverage" NAME="100_判断两个树是否相等 Coverage Results" MODIFIED="1620096190915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$705.coverage" NAME="705 Coverage Results" MODIFIED="1615642238937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$191_.coverage" NAME="191_位一的个数 Coverage Results" MODIFIED="1625059746058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$02_.coverage" NAME="02_旋转数组 Coverage Results" MODIFIED="1625244516862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$712_ASCII.coverage" NAME="712_两个字符串的最小ASCII删除和 Coverage Results" MODIFIED="1621520761883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$1143_.coverage" NAME="1143_最长公共子序列 Coverage Results" MODIFIED="1621342121297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$188_IV.coverage" NAME="188_买卖股票的最佳时期IV Coverage Results" MODIFIED="1622905418148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$39_.coverage" NAME="39_组合总和 Coverage Results" MODIFIED="1626764859230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$583_.coverage" NAME="583_两个字符串的删除操作 Coverage Results" MODIFIED="1621432077281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$268_.coverage" NAME="268_丢失的数字 Coverage Results" MODIFIED="1627477546047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$4_.coverage" NAME="4_寻找两个正序数组的中位数 Coverage Results" MODIFIED="1627299550118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$40_II.coverage" NAME="40_组合总和II Coverage Results" MODIFIED="1627177910399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$1207.coverage" NAME="1207 Coverage Results" MODIFIED="1604638557073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_test_dll_py.coverage" NAME="pytest in test_dll.py Coverage Results" MODIFIED="1626313913564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$24_.coverage" NAME="24_两两交换链表中的节点 Coverage Results" MODIFIED="1620211552208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$300_.coverage" NAME="300_最长递增子序列 Coverage Results" MODIFIED="1621948121613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$28_strStr__.coverage" NAME="28_实现strStr() Coverage Results" MODIFIED="1623252450331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$_518_.coverage" NAME="背包问题_518_零钱兑换 Coverage Results" MODIFIED="1627727871690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$77_.coverage" NAME="77_组合 Coverage Results" MODIFIED="1624543037401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$TestSoftNMS.coverage" NAME="TestSoftNMS Coverage Results" MODIFIED="1621568765469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$34__.coverage" NAME="34_ 在排序数组中查找元素的第一个和最后一个位置 Coverage Results" MODIFIED="1627738306542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$_.coverage" NAME="最长递增子序列_打印出序列 Coverage Results" MODIFIED="1627441228231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$TestNMS.coverage" NAME="TestNMS Coverage Results" MODIFIED="1621562600511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$23_I.coverage" NAME="23_合并两个有序链表I Coverage Results" MODIFIED="1626501239381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$101_.coverage" NAME="101_对称二叉树 Coverage Results" MODIFIED="1620179059566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$50_pow_x_n_.coverage" NAME="50_pow(x,n) Coverage Results" MODIFIED="1627524124608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$1356.coverage" NAME="1356 Coverage Results" MODIFIED="1604640047315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$231_2.coverage" NAME="231_2的幂数 Coverage Results" MODIFIED="1625143975770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$5.coverage" NAME="5 Coverage Results" MODIFIED="1617623152809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$88.coverage" NAME="88 Coverage Results" MODIFIED="1617625152017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$41_.coverage" NAME="41_缺失的第一整数 Coverage Results" MODIFIED="1627472834107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$pytest_in__py.coverage" NAME="pytest in 多进程和线程.py Coverage Results" MODIFIED="1625194098932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$51_N.coverage" NAME="51_N皇后 Coverage Results" MODIFIED="1627178973440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$18.coverage" NAME="18 Coverage Results" MODIFIED="1621756651106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$3__s.coverage" NAME="3__和为s的连续正数序列 Coverage Results" MODIFIED="1627628915146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$31_.coverage" NAME="31_下一个排列 Coverage Results" MODIFIED="1626751927988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$752.coverage" NAME="752 Coverage Results" MODIFIED="1624977041901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$169_.coverage" NAME="169_多数元素 Coverage Results" MODIFIED="1627561560845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$384_.coverage" NAME="384_打乱数组 Coverage Results" MODIFIED="1623164762759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$503.coverage" NAME="503 Coverage Results" MODIFIED="1615031959185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$354.coverage" NAME="354 Coverage Results" MODIFIED="1614841482284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$SGD.coverage" NAME="梯度下降算法比较 Coverage Results" MODIFIED="1627218034634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$122_II.coverage" NAME="122_买卖股票的最佳时期II Coverage Results" MODIFIED="1622640102852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$23_.coverage" NAME="23_合并多个链表 Coverage Results" MODIFIED="1626572494567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$973.coverage" NAME="973 Coverage Results" MODIFIED="1604926948208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$46.coverage" NAME="46 Coverage Results" MODIFIED="1624201048058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$61_.coverage" NAME="61_旋转链表 Coverage Results" MODIFIED="1620315436869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$105_.coverage" NAME="105_前序和中序构建二叉树 Coverage Results" MODIFIED="1619941750718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$172_0.coverage" NAME="172_阶乘后的0 Coverage Results" MODIFIED="1625239081065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$Focalloss.coverage" NAME="Focalloss Coverage Results" MODIFIED="1624286382078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$_55_.coverage" NAME="贪心算法_55_跳跃游戏 Coverage Results" MODIFIED="1622209769050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$131.coverage" NAME="131 Coverage Results" MODIFIED="1615124069558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$338.coverage" NAME="338 Coverage Results" MODIFIED="1614779044404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$64_.coverage" NAME="64_最小路径和 Coverage Results" MODIFIED="1620897348146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$20_.coverage" NAME="20_有效的括号 Coverage Results" MODIFIED="1627394010811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1617720022790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$PAN.coverage" NAME="PAN Coverage Results" MODIFIED="1620956878095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$_72_.coverage" NAME="子序列问题_72_编辑距离 Coverage Results" MODIFIED="1627355168578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$08_.coverage" NAME="08_反转字符串 Coverage Results" MODIFIED="1625889407275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$112_.coverage" NAME="112_路径总和 Coverage Results" MODIFIED="1620040638018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$BinartInsertSort.coverage" NAME="BinartInsertSort Coverage Results" MODIFIED="1619423378577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$698_k.coverage" NAME="698_划分为k个相等的子集 Coverage Results" MODIFIED="1624203665565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="梯度下降算法比较 (1) Coverage Results" MODIFIED="1627297858986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$_931_.coverage" NAME="[931]下降路径最小和 Coverage Results" MODIFIED="1621169663162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/bisai/leetcode/leetcode/editor/cn" />
+    <SUITE FILE_PATH="coverage/python$160_.coverage" NAME="160_相交链表 Coverage Results" MODIFIED="1620568048761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$322_.coverage" NAME="322_零钱问题 Coverage Results" MODIFIED="1620801506063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1627736488172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$LayerNormalization.coverage" NAME="LayerNormalization Coverage Results" MODIFIED="1626229090916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$3_.coverage" NAME="3_连续子数组的最大和 Coverage Results" MODIFIED="1627634558091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$InsertSort.coverage" NAME="InsertSort Coverage Results" MODIFIED="1619422411792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$CONV2D.coverage" NAME="CONV2D Coverage Results" MODIFIED="1626578004773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$7_.coverage" NAME="7_整数反转 Coverage Results" MODIFIED="1623410773418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$Pytorch_Variable.coverage" NAME="Pytorch_Variable Coverage Results" MODIFIED="1621766714453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1615210347394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$111_.coverage" NAME="111_二叉树的最小深度 Coverage Results" MODIFIED="1624972456167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$28_.coverage" NAME="28_移动零 Coverage Results" MODIFIED="1626258615820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$05.coverage" NAME="05 Coverage Results" MODIFIED="1625483633804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$_415_.coverage" NAME="背包问题_415_分割等和子集 Coverage Results" MODIFIED="1621942291952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$448_.coverage" NAME="448_找到所有数组中消失的数据 Coverage Results" MODIFIED="1626071218834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$NonLocalBlock.coverage" NAME="NonLocalBlock Coverage Results" MODIFIED="1627373588060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$372_.coverage" NAME="372_超级次方 Coverage Results" MODIFIED="1625490029026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$102.coverage" NAME="102 Coverage Results" MODIFIED="1619431497468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$batchNormalization.coverage" NAME="batchNormalization Coverage Results" MODIFIED="1626309101580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$886.coverage" NAME="886 Coverage Results" MODIFIED="1618917904945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$234_.coverage" NAME="234_回文链表 Coverage Results" MODIFIED="1626583860522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$793_.coverage" NAME="793_阶乘函数 Coverage Results" MODIFIED="1625324683589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$993_.coverage" NAME="993_二叉树的堂兄节点 Coverage Results" MODIFIED="1621261477934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$asda.coverage" NAME="asda Coverage Results" MODIFIED="1619438304109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$83__.coverage" NAME="83_删除排序链表中的重复元素_容易版的 Coverage Results" MODIFIED="1620475956187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$204_.coverage" NAME="204_计数质数 Coverage Results" MODIFIED="1625487008301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$CBAM.coverage" NAME="CBAM Coverage Results" MODIFIED="1627377390494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$soft_nms_pytorch.coverage" NAME="soft_nms_pytorch Coverage Results" MODIFIED="1626572511401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$82_.coverage" NAME="82_删除排序链表中的重复元素 Coverage Results" MODIFIED="1620393759450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$ration_to_xyxyxyxy.coverage" NAME="ration_to_xyxyxyxy Coverage Results" MODIFIED="1625121596495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$13.coverage" NAME="13 Coverage Results" MODIFIED="1626328715093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$_452_.coverage" NAME="贪心算法_452_用最少数量的箭引爆气球 Coverage Results" MODIFIED="1622034220222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$113_.coverage" NAME="113_路径总和二 Coverage Results" MODIFIED="1626680019884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="两矩阵相乘 Coverage Results" MODIFIED="1627534792322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$yolov5.coverage" NAME="yolov5的输入推图像切片操作 Coverage Results" MODIFIED="1621839712572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$42_.coverage" NAME="42_接雨水 Coverage Results" MODIFIED="1626957418424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$nms_pytorch.coverage" NAME="nms_pytorch Coverage Results" MODIFIED="1625885028433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$5_.coverage" NAME="5_最长回文子串 Coverage Results" MODIFIED="1627382036084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$_435_.coverage" NAME="贪心问题_435_无重叠区间 Coverage Results" MODIFIED="1622033409625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$09.coverage" NAME="09 Coverage Results" MODIFIED="1625966851134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$136_.coverage" NAME="136_只出现一次的数字 Coverage Results" MODIFIED="1625318756535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$12.coverage" NAME="12 Coverage Results" MODIFIED="1626244445943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07_旋转图像 Coverage Results" MODIFIED="1625743909753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$InstanceNorm.coverage" NAME="InstanceNorm Coverage Results" MODIFIED="1626577998338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$6.coverage" NAME="6 Coverage Results" MODIFIED="1617186629151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$232.coverage" NAME="232 Coverage Results" MODIFIED="1614948809412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$11_.coverage" NAME="11_验证回文子串 Coverage Results" MODIFIED="1626156198854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$877_.coverage" NAME="877_石头游戏 Coverage Results" MODIFIED="1626416732547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$516_.coverage" NAME="516_最长回文子序列 Coverage Results" MODIFIED="1626149865006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$121_.coverage" NAME="121_买卖股票的最佳时期 Coverage Results" MODIFIED="1622472140904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$19__N_.coverage" NAME="19_删除链表的倒数第 N 个结点 Coverage Results" MODIFIED="1620205578501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$06.coverage" NAME="06 Coverage Results" MODIFIED="1625659288871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$37_.coverage" NAME="37_解数独 Coverage Results" MODIFIED="1625742193376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$2_.coverage" NAME="2_两数相加 Coverage Results" MODIFIED="1620204011309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$GroupNormalization.coverage" NAME="GroupNormalization Coverage Results" MODIFIED="1626311026118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$382_.coverage" NAME="382_链表随机节点 Coverage Results" MODIFIED="1626157042448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$206_.coverage" NAME="206_反转链表 Coverage Results" MODIFIED="1620734714485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$10.coverage" NAME="10 Coverage Results" MODIFIED="1626073421203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$BFS.coverage" NAME="BFS迷宫问题 Coverage Results" MODIFIED="1620630234773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
+    <SUITE FILE_PATH="coverage/python$106_.coverage" NAME="106_从中序和后序构建二插树 Coverage Results" MODIFIED="1619942208597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/python$_53_.coverage" NAME="子序列问题_53_最大子序列和 Coverage Results" MODIFIED="1621948866299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$14_.coverage" NAME="14_报数问题 Coverage Results" MODIFIED="1626954459294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$DW_convolution.coverage" NAME="DW_convolution Coverage Results" MODIFIED="1627369197677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01_删除数组中的重复项 Coverage Results" MODIFIED="1625061916703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$56.coverage" NAME="56 Coverage Results" MODIFIED="1618892533683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list_dict" />
+    <SUITE FILE_PATH="coverage/python$27_.coverage" NAME="27_移除元素 Coverage Results" MODIFIED="1626246517408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/python$pydevd_comm.coverage" NAME="pydevd_comm Coverage Results" MODIFIED="1625661692144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/plugins/python/helpers/pydev/_pydevd_bundle" />
+    <SUITE FILE_PATH="coverage/python$931_.coverage" NAME="931_下降路径最小和 Coverage Results" MODIFIED="1621170937524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$509_.coverage" NAME="509_斐波那契数列问题 Coverage Results" MODIFIED="1620788179748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$_322_.coverage" NAME="背包问题_322_零钱问题 Coverage Results" MODIFIED="1621740540989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/python$78_.coverage" NAME="78_子集 Coverage Results" MODIFIED="1624286843631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$203_.coverage" NAME="203_移出链表指定的元素 Coverage Results" MODIFIED="1620631189689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linked_list" />
+    <SUITE FILE_PATH="coverage/python$47_II.coverage" NAME="47_全排列II Coverage Results" MODIFIED="1624117625503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/动态规划" />
+    <SUITE FILE_PATH="coverage/python$04_II.coverage" NAME="04_两个数组的交集II Coverage Results" MODIFIED="1625407566287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+  </component>
+</project>
