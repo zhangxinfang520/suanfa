@@ -8,7 +8,7 @@ def sqrtBI(x,epsilon=1e-4):
     high = x
     guess = (high + low) / 2.0
     counter = 0
-    while ((abs(guess ** 2 - x))> epsilon) and (counter <=100):
+    while ((abs(guess ** 2 - x)) > epsilon) and (counter <=100):
         if guess ** 2 < x:
             low =  guess
         else:

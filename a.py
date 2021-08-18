@@ -64,10 +64,13 @@ if __name__ == '__main__':
     # a = "123456"
     # for i in range(len(a)):
     #  print(a[0:i]+"s"+a[i:len(a)])
-    a = 3
-    c = a ^ 2 ^ a
-    print(c)
-    
+    # a = 3
+    # c = a ^ 2 ^ a
+    # print(c)
+    #
+    b = [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+    a = b[1:10:2]
+    print(a)
 
 
 # nums = [7,1,3,6,8,4]

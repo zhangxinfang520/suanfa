@@ -42,7 +42,7 @@ class my_conv(object):
         fm_mat = np.zeros([c,h+2*pad_h,w+2*pad_w],dtype=np.float32)
         for i in range(c):
             fm_mat[i,pad_h:pad_h+h,pad_w:pad_w+w] = self.input[i]
-        kernel_mat =self.kerenl_size
+        kernel_mat = self.kerenl_size
         kernel_mat.shape = (kc*k*k,1) # 转化为列向量
         # 将输入和卷积核转化为矩阵相乘的规格
         result_mat = np.zeros([res_h*res_w, kc*k*k],np.float32)

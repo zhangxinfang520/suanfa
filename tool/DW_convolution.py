@@ -61,7 +61,7 @@ class Conv2d(nn.Module):
         super(Conv2d, self).__init__()
         self.op = nn.Sequential(
             nn.Conv2d(C_in, C_out, kernel_size=kernel_out, stride=stride, padding=padding, bias=False),
-            nn.BatchNorm2d(C_out, eps=1e-5, affine=True)
+            nn.BatchNorm2d(C_out, eps=1e-5, affine=affine)
         )
 
     def forward(self, x):
