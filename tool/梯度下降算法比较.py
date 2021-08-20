@@ -168,7 +168,7 @@ class MomentumGradientDense(MiniBatchGradientDescent):
                 self.velocity = self.velocity * self.gamma + self.eta * mini_gradient
                 self.theta -= self.velocity
 
-            loss = 1 / (2*self.batch_size) *np.mean(errors)
+            loss = 1 / (2*self.batch_size) * np.mean(errors)
             # print(loss)
             delta_loss = loss - self.loss_[-1]
             self.loss_.append(loss)

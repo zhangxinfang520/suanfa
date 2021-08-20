@@ -17,24 +17,25 @@
 import math
 import sys
 
-while True:
-    m,n = sys.stdin.readline().strip().split()
-    n, m = int(n),int(m)
-    if n < 100 or m < 100:
-        print("no")
-    else:
-        res = []
-        for i in range(m,n):
-            gh = i % 10
-            sh = (i - gh)// 10 % 10
-            bh = i // 100
-            if (gh**3 + sh**3 + bh**3) == i:
-                res.append(i)
-        if len(res):
-            for re in res:
-                print(re,end="")
-        else:
-            print("no")
+
+n, b = sys.stdin.readline().strip().split()
+n, b = int(n),int(b)
+re = []
+for i in range(n):
+    u, v, r = list(map(int,sys.stdin.readline().strip().split()))
+    if b < (v+r):
+       re.append(i)
+    elif b==(v+r) and (v-r)==0:
+       re.append(i)
+if len(re):
+    print(re[0])
+else:
+    print(n)
+
+
+
+
+
 
 
 
