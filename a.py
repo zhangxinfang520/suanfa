@@ -53,6 +53,28 @@ class Partition:
 
         return re_head.next
 
+import random
+def foo(n):
+    random.seed()
+    c1 = 0
+    c2 = 0
+    for i in range(n):
+        x = random.random()
+        y = random.random()
+        r1 = x * x + y * y
+        r2 = (1 - x) * (1 - x) + (1 - y) * (1 - y)
+        if r1 <= 1 and r2 <= 1:
+           c1 += 1
+        else:
+           c2 += 1
+    return   c1 / c2
+
+
+def test():
+    for i in range(10):
+        print(i)
+        i +=1
+
 if __name__ == '__main__':
     # a = "abec"
     # b = "abcdd"
@@ -71,9 +93,10 @@ if __name__ == '__main__':
     # b = [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
     # a = b[1:10:2]
     # print(a)
-    a = 2
-    print("%.2f"%a)
-
+    # a = 2
+    # print("%.2f"%a)
+    #print(foo(100000))
+    print(test())
 
 # nums = [7,1,3,6,8,4]
 	# print(quick_sort(num

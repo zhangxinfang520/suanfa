@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="F:/bisai/leetcode/leetcode/editor/cn/[128]最长连续序列.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="F:/bisai/leetcode/leetcode/editor/cn/[128]最长连续序列.py" />
+              <option name="questionId" value="128" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="F:/bisai/leetcode/leetcode/editor/cn/[931]下降路径最小和.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="F:/bisai/leetcode/leetcode/editor/cn/[931]下降路径最小和.py" />
+              <option name="questionId" value="967" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
