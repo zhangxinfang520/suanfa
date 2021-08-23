@@ -96,7 +96,12 @@ if __name__ == '__main__':
     # a = 2
     # print("%.2f"%a)
     #print(foo(100000))
-    print(test())
 
-# nums = [7,1,3,6,8,4]
-	# print(quick_sort(num
+
+    res = map(lambda n:n>5,range(10))
+    print(list(res))
+
+    res2 = filter(lambda x:x>5 ,range(10))
+    print(list(res2))
+
+
