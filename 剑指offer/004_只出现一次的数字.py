@@ -16,38 +16,28 @@
 思路二 利用状态机和位运算，
 one = (one^x)&~two 只保留出现一次的数
 two = (two^x)&~one 只保留出现2次的数
+思路 3 将所有的数 转化为二进制 然后 将每一个数的位数想加 然后除以3 剩余就是单独的那一个数
+
 '''
 from typing import List
 
 
 class Solution:
     def singleNumber1(self, nums: List[int]) -> int:
-        #快排思想
-        n = len(nums)
-        def quicksort(l,r):
-            if l < r:
-                i, j = l, r
-                temp = nums[i]
-                while i < j:
-                    while i<j and nums[j] >= temp:
-                        j -=1
-                    if i <j:
-                        nums[i] = nums[j]
-                        i +=1
-                    while i < j and nums[i] < temp:
-                        i +=1
-                    if i < j:
-                        nums[j] = nums[i]
-                        j -=1
-                nums[i] = temp
-                if (i) % 3 == 0:
-                    quicksort(i,r)
-                elif (n-i) % 3 == 0:
-                    quicksort(l,i-1)
+        ret  = 0
+        for i in range(32):
+            cnt = 0
+            for num in nums:
+                cnt += num >> i & 1
+            if cnt % 3:
+                if i == 31:
+                    ret -=(1<<i)
                 else:
-                    return temp
+                    ret |= 1 << i
+        return ret
 
-        return quicksort(0,n-1)
+
+
 
     def singleNumber(self, nums: List[int]) -> int:
         one, two = 0, 0

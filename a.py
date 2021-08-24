@@ -2,7 +2,9 @@
 # @Time : 2021-07-01 16:54
 # @Author: zxf_要努力
 # @File : a.py
+from typing import List
 
+import numpy as np
 # def quick_sort(nums):
 #     def sort(l, r):
 #         if l >= r: return
@@ -69,13 +71,29 @@ def foo(n):
            c2 += 1
     return   c1 / c2
 
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        n = len(nums)
 
-def test():
-    for i in range(10):
-        print(i)
-        i +=1
+        def trackback(track,idx):
+            res.append(track[:])
+            for i in range(idx,n):
+                track.append(nums[i])
+                trackback(track,i+1)
+                track.pop()
+        trackback([],0)
+        return res
+
+
+# def test():
+#     for i in range(10):
+#         print(i)
+#         i +=1
 
 if __name__ == '__main__':
+    nums = [1,2,3]
+    print(Solution().permuteUnique(nums))
     # a = "abec"
     # b = "abcdd"
     # print(a  in b)
@@ -98,10 +116,19 @@ if __name__ == '__main__':
     #print(foo(100000))
 
 
-    res = map(lambda n:n>5,range(10))
-    print(list(res))
+    # res = map(lambda n:n>5,range(10))
+    # print(list(res))
+    #
+    # res2 = filter(lambda x:x>5 ,range(10))
+    # print(list(res2))
 
-    res2 = filter(lambda x:x>5 ,range(10))
-    print(list(res2))
+    #
+    # a = np.repeat(np.arange(5).reshape([1, -1]), 10, axis=0) + 10.0
+    # b = np.random.randint(5, size=a.shape)
+    # c = np.argmin(a * b, axis=1)
+    # b = np.zeros(a.shape)
+    # b[np.arange(b.shape[0]), c] = 1
+
+    #print(b)
 
 
