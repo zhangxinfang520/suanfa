@@ -68,6 +68,25 @@ class FocalLoss1(nn.Module):
         else:  # 'none'
             return loss
 
+class Focalloss2(nn.Module):
+    def __init__(self,loss_fcn,gamma,alpha):
+        super(Focalloss2, self).__init__()
+        self.loss_fcn = loss_fcn
+        self.gamma = gamma
+        self.alpha = alpha
+        self.loss_fcn.reduction = loss_fcn.reduction
+        self.loss_fcn.reduction = 'none'
+
+    def forward(self,pred,true):
+        loss = self.loss_fcn(pred,true)
+        pred_prod = torch.sigmoid(pred)
+        p_t = true * pred_prod + (1 - true) * (1 - pred_prod)
+        alpha = true * self.alpha + (1 - true) * (1 - self.alpha)
+        modulating_factor = (1.0-p_t)**self.gamma
+        loss *= modulating_factor * alpha
+
+        if self.reduction == "mean":
+            return loss.mean()
 
 
 loss = FocalLoss1(nn.BCELoss())

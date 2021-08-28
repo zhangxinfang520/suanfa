@@ -24,10 +24,15 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         dp_i_0 = 0
         dp_i_1 = float("-inf")
-        dp_pre_0 = 0 #这个代表i-2
+        dp_pre_0 = 0  # 这个代表i-2
         for price in prices:
             temp = dp_i_0
-            dp_i_0 = max(dp_i_0,dp_i_1+price)
-            dp_i_1 = max(dp_i_1,dp_pre_0-price)
+            dp_i_0 = max(dp_i_0, dp_i_1 + price)
+            dp_i_1 = max(dp_i_1, dp_pre_0 - price)
             dp_pre_0 = temp
         return dp_i_0
+
+
+if __name__ == '__main__':
+    nums = [1, 2, 3, 0, 2]
+    print(Solution().maxProfit(nums))

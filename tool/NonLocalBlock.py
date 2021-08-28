@@ -5,7 +5,7 @@
 import torch
 import torch.nn as nn
 
-class  NonLocalBlock(nn.Module):
+class NonLocalBlock(nn.Module):
     def __init__(self,channel):
         super(NonLocalBlock, self).__init__()
         self.inter_channels = channel // 2

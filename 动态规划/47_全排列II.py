@@ -27,7 +27,7 @@ class Solution:
                     res.append(nums[:])
             else:
                 for i in range(first,n):
-                    nums[first],nums[i] = nums[i],nums[first]
+                    nums[first],nums[i] = nums[i], nums[first]
                     all_sort(first+1)
                     nums[first], nums[i] = nums[i], nums[first]
         all_sort()

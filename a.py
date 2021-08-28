@@ -92,8 +92,8 @@ class Solution:
 #         i +=1
 
 if __name__ == '__main__':
-    nums = [1,2,3]
-    print(Solution().permuteUnique(nums))
+    # nums = [1,2,3]
+    # print(Solution().permuteUnique(nums))
     # a = "abec"
     # b = "abcdd"
     # print(a  in b)
@@ -130,5 +130,31 @@ if __name__ == '__main__':
     # b[np.arange(b.shape[0]), c] = 1
 
     #print(b)
+
+    key = ["王","雪","变","昨","答","的","今","就","变"]
+    #value = ["梦","你","了","天","应","事","天","转","了"]
+    re = dict()
+    for i in range(len(key)):
+        if key[i] not in re.keys():
+            re[key[i]] = 1
+        else:
+            re[key[i]] +=1
+    print(re)
+    print(key)
+    #判断两个列表的长度是否一致
+    # assert  len(key) == len(value),"长度不一致"
+    # re = dict()
+    # for i in range(len(key)):
+    #     re[key[i]] = value[i]
+    # print(re)
+    # re_1 = dict()
+    # #进阶版 一
+    # for key_,value_ in zip(key, value):
+    #     re_1[key_] = value_
+    # print(re_1)
+    # #进阶版二
+    # re_2 = dict(zip(key, value))
+    # print(re_2)
+    
 
 

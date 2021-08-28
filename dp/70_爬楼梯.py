@@ -50,5 +50,5 @@ class Solution:
         backtrack(n)
         return sum(res)
 
-print(Solution().climbStairs(10))
+print(Solution().climbStairs1(10))
 

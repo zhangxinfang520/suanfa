@@ -22,5 +22,6 @@ class Solution:
                 return max(dp(i-1,j),dp(i,j-1))
         return dp(len(str1)-1,len(str1)-1)
 
+
 text1 = "euazbipzncptldueeue"
 print(Solution().longestPalindromeSubseq(text1))
