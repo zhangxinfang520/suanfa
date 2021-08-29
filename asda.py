@@ -5,18 +5,16 @@
 import math
 import numpy as np
 
-def softmax(nums):
-	sum_ = 0
-	res = []
-	a = max(nums)
-	for num in nums:
-		temp = math.exp(num-a)
-		sum_ += temp
-		res.append(temp)
-	res = np.array(res)
-	return res/sum_
+# def softmax(nums):
+# 	sum_ = 0
+# 	res = []
+# 	a = max(nums)
+# 	for num in nums:
+# 		temp = math.exp(num-a)
+# 		sum_ += temp
+# 		res.append(temp)
+# 	res = np.array(res)
+# 	return res/sum_
 
 if __name__ == '__main__':
-    nums = [-1000,-500,-1000]
-    print(softmax(nums))
-
+    print("a"<"b")
