@@ -19,7 +19,7 @@ class Solution:
         divisor = 5
         while divisor <= n:
             res += n // divisor
-            divisor *=5
+            divisor *= 5
         return res
 
 
