@@ -11,24 +11,17 @@ from typing import List
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
-
         for i in range(len(s)):
-            a = self.get_dorm(s,i,i+1)
-            if len(a)>0 :
-                res.append(a)
-            b = self.get_dorm(s,i,i)
-            if len(b)>0:
-                res.append(b)
+            re = self.get_dorm(s,i)
+            res.append(re[:])
         return res
 
-    def get_dorm(self,s,i,j):
+    def get_dorm(self,s,i):
+        '''i代表 窗口的长度'''
+        re = []
         n = len(s)
-        l,r =i,j
-        while l >=0 and r < n and s[l] == s[r]:
-            l -= 1
-            r += 1
-        return s[l+1:r]
-
+        for i in range(n):
+            pass
 if __name__ == '__main__':
     s = "googlelgoo"
     print(Solution().partition(s))

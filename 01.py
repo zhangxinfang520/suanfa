@@ -24,10 +24,11 @@ def get_letters(nums,target=3):
 if __name__ == '__main__':
     # A = list(string.ascii_letters)
     # print(len(get_letters(A, 3)))
-    import random
-    a = random.randint(1,2)
-
-    print(a)
+    # import random
+    # a = random.randint(1,2)
+    #
+    # print(a)
+    print(1e9+7)
     # A = [1,2,3,3,3,2,2,2]
     # b = {}
     # b = b.fromkeys(A)

@@ -42,10 +42,34 @@ class Solution:
         backtrack(0,track,target)
         return result
 
+    def combinationSum3(self, candidates: List[int], target: int) -> List[List[int]]:
+        candidates.sort()
+        res = []
+        n = len(candidates)
 
-candidates =[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-target = 27
-print(Solution().combinationSum2(candidates,target))
+        def backtrack(track, target, idx):
+            if target == 0:
+                # if track not in res:
+                #     res.append(track[:])
+                res.append(track[:])
+                return
+            if idx == n:
+                return
+            for i in range(idx, n):
+                if i > idx and candidates[i] == candidates[i - 1]:
+                    continue
+                if target - candidates[i] >= 0:
+                    track.append(candidates[i])
+                    backtrack(track, target - candidates[i], i + 1)
+                    track.pop()
+
+        backtrack([], target, 0)
+        return res
+
+
+candidates =[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+target = 32
+print(Solution().combinationSum3(candidates,target))
                 
                 
                 
