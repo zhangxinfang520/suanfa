@@ -36,7 +36,7 @@ class Solution:
         '''
         if n <= 0:
             return False
-        return (n &(n-1)) == 0;
+        return (n &(n-1)) == 0
 
 n = 4
 print(Solution().isPowerOfTwo(n))

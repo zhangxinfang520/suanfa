@@ -8,17 +8,17 @@ import string
 def get_letters(nums,target=3):
     res = []
     track = []
+    n = len(nums)
 
-    def dp(target,track):
-        if target == 0:
-            res.append(track[:])
+    def dp(track,index):
+        if index == n:
             return
-        for i in range(len(nums)):
-            if target > 0 :
-                track.append(nums[i])
-                dp(target-1,track)
-                track.pop()
-    dp(3,track)
+        res.append(track[:])
+        dp(track,index+1)
+        track.append(nums[index])
+        dp(track,index)
+        track.pop()
+    dp(track,0)
     return res
 
 if __name__ == '__main__':
@@ -28,7 +28,8 @@ if __name__ == '__main__':
     # a = random.randint(1,2)
     #
     # print(a)
-    print(1e9+7)
+    nums = [1,2,3,4]
+    print(get_letters(nums))
     # A = [1,2,3,3,3,2,2,2]
     # b = {}
     # b = b.fromkeys(A)

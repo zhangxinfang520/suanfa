@@ -42,7 +42,7 @@ class NonLocalBlock(nn.Module):
 
 x = torch.randn(3,256,32,32)
 NLB = NonLocalBlock(256)
-parm = sum([ x.numel() for x in NLB.parameters()])
+parm = sum([x.numel() for x in NLB.parameters()])
 print(parm)
 out = NLB(x)
 print(out.shape)

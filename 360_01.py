@@ -17,42 +17,55 @@
 import sys
 
 
+def get_count(n,k,m,w):
+    if n == 0:
+        return 0
+    if n == 1:
+        return max(w)
+    w.sort()
+    w_min_count = 0
+    for i in range(len(w)):
+        if w[i] <= m:
+            w_min_count +=1
+    if w_min_count == 0:
+        count = n // k
+        return sum(w[-count:])
+    elif w_min_count == len(w):
+        return sum(w)
+    else:
+        total = 0
+        min_m = w[0:w_min_count]
+        max_m = w[w_min_count:n]
+        while  n > 0 and w_min_count > 0:
+            if len(min_m) >= k and len(max_m) > 0:
+                if sum(min_m[0:k])< max_m[-1]:
+                    total += max_m.pop()
+                    n = n-k
+                    for i in range(0,k):
+                        min_m.pop(0)
+                else:
+                    while n > 0 and len(min_m) > 0:
+                        total += min_m.pop(0)
+                    if n > 0:
+                        total += max_m[-(n//k):]
+                        return total
+                    else:
+                        return total
+            else:
+                if len(min_m) < k:
+                    k = len(min_m)
+                    total += sum(min_m)
+                    n -= k
+                    if n <= k:
+                        total += max_m[-1]
+                    else:
+                        total += sum(max_m[-(n // k):])
+                    return total
+                else:
+                    total += sum(min_m)
+                    return total
 
 if __name__ == '__main__':
-
-    x = list(map(int, input().split()))
-    n, m, x, k = x[0], x[1], x[2], x[3]
-    nums = list(map(int, input().split()))
-    score_min = min(nums)
-    if m == 0:
-        print(score_min)
-
-    def fun(nums, target, m, x, k):
-        diff = [0] * len(nums)
-        diff[0] = nums[0]
-        for i in range(1, len(nums)):
-            diff[i] = nums[i] - nums[i - 1]
-        cur = 0
-        for i in range(0, len(nums)):
-            cur += diff[i]
-            if cur < target:
-                use = (target - cur + k - 1) // k
-                m -= use
-                if m < 0:
-                    return False
-                cur += use * k
-                if i + 2 * x + 1 < len(nums):
-                    diff[i + 2 * x + 1] -= use * k
-        return m >= 0
-
-
-    left = score_min
-    right = score_min + m * k
-    while left < right:
-        mid = left + (right - left + 1) // 2
-        if fun(nums, mid, m, x, k):
-            left = mid
-        else:
-            right = mid - 1
-
-    print(int(left))
+    n, k, m = list(map(int,sys.stdin.readline().rstrip().split()))
+    w = list(map(int, sys.stdin.readline().rstrip().split()))
+    print(get_count(n, k, m, w))

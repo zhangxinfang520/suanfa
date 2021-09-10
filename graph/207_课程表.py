@@ -47,6 +47,7 @@ class Solution:
             edge[end].append(first)
             node[first] += 1
         que = [u for u in node if u == 0]
+
         visited = 0
         while que:
             visited +=1

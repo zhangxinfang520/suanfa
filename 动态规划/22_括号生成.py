@@ -41,6 +41,6 @@ class Solution:
                 else:
                     bal -=1
                 if bal < 0: return False
-            return bal==0
+            return bal == 0
         dp([])
         return res

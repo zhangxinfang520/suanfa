@@ -39,5 +39,5 @@ class Solution:
             # 所以下一次搜索从 i + 1 开始
             self.backtrack(nums,i+1,path,res)
             path.pop()
-nums = [1,2,3]
+nums = [1,2,2]
 print(Solution().subsets(nums))
