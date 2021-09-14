@@ -41,7 +41,7 @@ class Solution:
              if i>=m or j>=n or j< 0:
                  return float('inf')
              # base case
-             if i==(m-1):
+             if i == (m-1):
                 return grid[i][j]
 
              if memo[i][j] !=-1:

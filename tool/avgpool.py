@@ -41,7 +41,7 @@ class AvgPool:
 
         for i in range(self.out_height):
             for j in range(self.out_width):
-                dx[i * self.stride:(i * self.stride + self.w_height), j * self.stride:(j * self.stride + self.w_height)] = d_loss[i,j] /(self.w_height*self.w_width)
+                dx[i * self.stride:(i * self.stride + self.w_height), j * self.stride:(j * self.stride + self.w_height)] = d_loss[i,j] / (self.w_height*self.w_width)
         return dx
     
 if __name__ == '__main__':

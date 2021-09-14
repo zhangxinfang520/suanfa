@@ -38,6 +38,8 @@ class Solution:
                     memo = [[-1] * n for _ in range(m)]
                     memo1 = [[-1] * n for _ in range(m)]
         return res
+
+
     def othermethod(self,grid):
         m, n = len(grid), len(grid[0])
         res = 0
