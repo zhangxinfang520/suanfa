@@ -39,6 +39,7 @@ class LogisticRegression(nn.Module):
 
 #模型初始化
 log_net = LogisticRegression(2,1)
+print(sum([x.numel() for x in log_net.parameters()]))
 if torch.cuda.is_available():
     log_net.cuda()
 #损失函数

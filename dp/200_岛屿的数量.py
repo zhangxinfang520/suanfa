@@ -47,7 +47,6 @@ class Solution:
         for i in range(n):
             for j in range(m):
                 if grid[i][j] == '1':
-
                     count +=1
                     dfs(i,j)
         return count
