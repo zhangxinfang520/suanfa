@@ -30,7 +30,7 @@ class Solution:
         return a
 
     def backtrack(self,nums,index,bucket,target):
-        if (index == len(nums)):
+        if (index ==  len(nums)):
             for i in range(len(bucket)):
                 if bucket[i] != target:
                     return False

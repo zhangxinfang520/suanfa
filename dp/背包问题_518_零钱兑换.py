@@ -64,6 +64,7 @@ class Solution:
 
         return memo[amount]
 
+
 amount = 5
 coins = [1, 2, 5]
 print(Solution().change1(amount, coins))

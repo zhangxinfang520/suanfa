@@ -110,7 +110,7 @@ class Heap:
         return None
 
 if __name__ == '__main__':
-    arr = [3,2,1]
+    arr = [3,2,1,8,6,4]
     k = 2
     print(Solution().getLeastNumbers1(arr, k))
 

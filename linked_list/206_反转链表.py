@@ -31,12 +31,11 @@ class Solution:
             pre = p
             p = post
             post = temp
-
         return p
 
 
     def reverselist(self,head:ListNode):
-        if  head.next==None : return head
+        if  head.next == None : return head
         newnode = self.reverselist(head.next)
         head.next.next = head
         head.next = None

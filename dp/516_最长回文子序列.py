@@ -13,6 +13,7 @@ class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         str1 = list(s)
         str2 = str1[::-1]
+        s = []
         def dp(i,j):
             if i==-1 or j==-1:
                 return 0
@@ -20,8 +21,9 @@ class Solution:
                 return 1+dp(i-1,j-1)
             else:
                 return max(dp(i-1,j),dp(i,j-1))
+        print(s)
         return dp(len(str1)-1,len(str1)-1)
 
 
-text1 = "euazbipzncptldueeue"
+text1 = "euazbipzncp"
 print(Solution().longestPalindromeSubseq(text1))

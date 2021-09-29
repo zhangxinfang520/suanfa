@@ -7,6 +7,7 @@ import torch
 import torch.nn as nn
 
 import matplotlib.pyplot as plt
+from torch.utils.tensorboard import SummaryWriter
 
 #构造数据集
 n_data = torch.ones(100,2)
@@ -39,6 +40,7 @@ class LogisticRegression(nn.Module):
 
 #模型初始化
 log_net = LogisticRegression(2,1)
+print(log_net.lr.weight[0])
 print(sum([x.numel() for x in log_net.parameters()]))
 if torch.cuda.is_available():
     log_net.cuda()
@@ -47,6 +49,7 @@ loss = nn.BCELoss()
 #优化器
 optim = torch.optim.SGD(log_net.parameters(),lr=1e-3,momentum=0.9)
 
+writer = SummaryWriter("log")
 #开始训练
 for epoch in range(10000):
     if torch.cuda.is_available():
@@ -62,6 +65,9 @@ for epoch in range(10000):
     optim.zero_grad()
     loss_.backward()
     optim.step()
+    layer = log_net.lr.weight[0]
+    writer.add_scalar("loss",loss_, epoch)
+    writer.add_histogram("layer",layer, epoch)
     if (epoch + 1) % 20 == 0:
         print('*' * 10)
         print('epoch {}'.format(epoch + 1))  # 误差
