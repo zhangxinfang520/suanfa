@@ -50,12 +50,12 @@ class Solution:
                  if j < coins[i-1]:
                      memo[i][j] = memo[i-1][j]
                  else:
-                     memo[i][j] = memo[i-1][j]+memo[i][j-coins[i-1]]
+                     memo[i][j] = memo[i-1][j] + memo[i][j-coins[i-1]]
          return memo[n][amount]
 
     def change1(self, amount: int, coins: List[int]):
         n = len(coins)
-        memo = [0]*(amount+1)
+        memo = [0] * (amount+1)
         memo[0] = 1
         for i in range(0,n):
             for j in range(1,amount+1):

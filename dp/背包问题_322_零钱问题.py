@@ -35,6 +35,7 @@ class Solution:
                 res = min(res,1+subproblem)
             return res if res!=float('inf') else -1
         return dp(amount)
+
     #带备忘录求解 就是消除重叠子问题
     def coinChange1(self,coins: List[int], amount: int):
         memo =dict()
@@ -52,6 +53,7 @@ class Solution:
             return memo[n]
         return dp(amount)
     #自定向上的求解
+
     def coinChange2(self,coins:List[int],amount:int):
         result = list()
         for _ in range(amount+1):
@@ -66,9 +68,6 @@ class Solution:
                 result[i] = min(result[i],1+result[i-coin])
         print(result)
         return -1 if result[amount]==amount+1 else result[amount]
-
-
-
 
 
 

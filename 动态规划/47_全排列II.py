@@ -21,7 +21,7 @@ class Solution:
         res = list()
 
         def all_sort(first=0):
-            if first==n:
+            if first == n:
                 temp = nums[:]
                 if temp not in res:
                     res.append(nums[:])
