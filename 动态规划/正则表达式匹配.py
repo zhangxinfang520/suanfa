@@ -45,5 +45,6 @@ class Solution:
 if __name__ == '__main__':
     s = "aab"
     p = "c*a*b"
-    Solution().isMatch(s,p)
+
+    #Solution().isMatch(s,p)
 
