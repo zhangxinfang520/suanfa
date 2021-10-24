@@ -26,7 +26,7 @@ class Solution:
         for i in range(0,len(nums)-1):
             # 每次跳一个点 在该点的值的范围内找下一次调到最大值
             max_distance = max(nums[i]+i,max_distance)
-            if end==i:
+            if end == i:
                 jumps +=1
                 end = max_distance
         return jumps

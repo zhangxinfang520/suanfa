@@ -98,6 +98,7 @@ def pre_order_norecursion(root):
     res = []
     if not root:
         return res
+
     stack_list = []
     stack_list.append(root)
     while stack_list:
@@ -154,13 +155,17 @@ def post_order_norecursion(root):
     res = []
     if not root:
         return res
+    #栈
     stack = []
-    while root or  stack:
+    while root or stack:
+        #把左子树放入
         while root:
             stack.append(root)
             root = root.left if root.left else root.right
+        #最左边的
         temp_node = stack.pop()
         res.append(temp_node.val)
+        # 倒数第二节点
         if stack and stack[-1].left == temp_node:
             root = stack[-1].right
         else:
