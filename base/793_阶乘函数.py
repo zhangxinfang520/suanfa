@@ -16,6 +16,7 @@ class Solution:
                 break
             else:
                 re +=1
+
     def get_end_zero(self,num:int)->int:
         res = 0
         division = 5
