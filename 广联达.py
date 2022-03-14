@@ -14,24 +14,24 @@
 #     re = sum(res)
 #     print(round(re,2))
 
-import math
 import sys
 
+def get_dict(nums):
+    memo = dict()
+    n = len(nums)
+    for i in range(n):
+        memo[i] = len(set(nums[i:]))
+    return memo
 
-n, b = sys.stdin.readline().strip().split()
-n, b = int(n),int(b)
-re = []
-for i in range(n):
-    u, v, r = list(map(int,sys.stdin.readline().strip().split()))
-    if b < (v+r):
-       re.append(i)
-    elif b==(v+r) and (v-r)==0:
-       re.append(i)
-if len(re):
-    print(re[0])
-else:
-    print(n)
-
+def get_count(x,memo):
+    return memo[x]
+if __name__ == '__main__':
+    n,m = list(map(int,sys.stdin.readline().rstrip().split()))
+    nums = list(map(int,sys.stdin.readline().rstrip().split()))
+    memo = get_dict(nums)
+    for _ in range(m):
+        x = int(sys.stdin.readline().rstrip())
+        print(get_count(x-1,memo))
 
 
 

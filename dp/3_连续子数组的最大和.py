@@ -21,7 +21,7 @@ class Solution:
                 return
             if i == 0:
                 return nums[0]
-            return max(nums[i],dp[i-1]+nums[i])
+            return max(nums[i],dp(i-1)+nums[i])
         return dp(1)
 
     def maxSubArray1(self,nums):

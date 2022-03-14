@@ -1,19 +1,37 @@
+import sys
+'''
+3 4
+08:00-09:00
+09:30-11:00
+13:00-15:00
+07:00-08:00
+08:00-11:00
+12:00-13:30
+14:00-17:00
+'''
 
-a = 10
-def get_index(nums):
-    global a
-    a +=1
-print(a)
-    # n = len(nums)
-    # if n==1:return 1
-    # dp = [1]*n
-    # for i in range(1,n):
-    #     for j in range(0,i):
-    #         if nums[i] - nums[j] ==1:
-    #             dp[i] = max(dp[i],dp[j]+1)
-    # return max(dp)
 
+def get_second(Date):
+    #Date 包含 小时和分中
+    hour,minute = Date.split(":")
+    return int(hour) * 3600 + int(minute) * 60
+
+def max_count(envs):
+    envs = sorted(envs,key=lambda x :(x[0],-x[1]))
+    n = len(envs)
+    dp = [1] * n
+    for i in range(1,n):
+        for j in range(0,i):
+            if envs[i][0] >= envs[j][1] :
+                dp[i] = max(dp[i],dp[j]+1)
+    return max(dp)
 
 if __name__ == '__main__':
-    nums = [1,2, 2, 4, 5, 6, 7, 8,3,4,5,6,7,9]
-    print(get_index(nums))
+    M, N = list(map(int,sys.stdin.readline().rstrip().split()))
+    res = []
+    for i in range(M+N):
+         temp = sys.stdin.readline().rstrip().split("-")
+         res.append(list(map(get_second, temp)))
+    print(max_count(res))
+
+
