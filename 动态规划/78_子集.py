@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
-#@Time : 2021-06-21 22:33
-#@Author: zxf_要努力
-#@File : 78_子集.py
+# @Time : 2021-06-21 22:33
+# @Author: zxf_要努力
+# @File : 78_子集.py
 '''
 给你一个整数数组 nums ，数组中的元素 互不相同 。返回该数组所有可能的子集（幂集）。
 解集 不能 包含重复的子集。你可以按 任意顺序 返回解集。
@@ -24,20 +24,41 @@ subset([1,2,3])
 '''
 from typing import List
 
-class Solution:
+
+class Solution1:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) == 0 : return [[]]
+        if len(nums) == 0: return [[]]
         res = list()
-        self.backtrack(nums,0,[],res)
+        self.backtrack(nums, 0, [], res)
         return res
 
-    def backtrack(self,nums,start,path,res):
+    def backtrack(self, nums, start, path, res):
         res.append(path[:])
-        for i in range(start,len(nums)):
+        for i in range(start, len(nums)):
             path.append(nums[i])
             # 因为 nums 不包含重复元素，并且每一个元素只能使用一次
             # 所以下一次搜索从 i + 1 开始
-            self.backtrack(nums,i+1,path,res)
+            self.backtrack(nums, i + 1, path, res)
             path.pop()
-nums = [1,2,2]
-print(Solution().subsets(nums))
+
+
+class Solution:
+    def SubSets(self, a):
+        if len(a) == 0: return [[]]
+        res = list()
+        n = len(a)
+
+        def dp(track, start):
+            res.append(track[:])
+            for i in range(start, n):
+                track.append(nums[i])
+                dp(track, i + 1)
+                track.pop()
+
+        dp([], 0)
+        return res
+
+
+nums = [1, 2]
+
+print(Solution1().subsets(nums))
