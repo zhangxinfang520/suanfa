@@ -72,28 +72,6 @@ class Solution:
 
 
 
-        #
-        # # income = dict(zip(cost,profit))
-        # # result= sorted(income.items(),key=lambda x:(x[0],x[1]))
-        # # print(result)
-        # # # 先 找 W 开始 可以投资的
-        # # total = 0
-        # # #不投资
-        # # dp_i_0 = W
-        # #投资
-        # dp_i_1 = float("-inf")
-        # # for i,w in enumerate(cost):
-        # #     if w < W :
-        # #         #证明可以投资
-        # #         #不投资
-        # #         dp_i_0 = w
-        # #         #投资
-        # #         dp_i_1 = max(dp_i_1,income[i] + dp_i_1)
-
-
-
-
-
 
 
 if __name__ == '__main__':
