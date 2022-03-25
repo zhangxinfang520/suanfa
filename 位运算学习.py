@@ -19,7 +19,10 @@ import heapq
 #左移
 #左移n位 代表乘以 2^n
 #右移n为 代表除以 2^n
-# print(8>>2)
+print(8>>3)
+
+print(17%8)
+print(17&7)
 
 #两个数 进行交换
 
@@ -68,19 +71,28 @@ class Solution:
         return W
 
 
+def tabelSizeFor(cap):
+    n = cap - 1
+    n |= n >> 1
+    n |= n >> 2
+    n |= n >> 4
+    n |= n >> 8
+    return n
 
 
 
 
 
 
-if __name__ == '__main__':
-    a = 4
-    b = 9
-    N, W, K = 5,3,2
-    cost = [5,4,1,2,2,3]
-    profit = [3,5,3,2,7,7]
-    print(Solution().get_max(N, K, W, cost, profit))
-    # #print(swap(a,b))
-    # print(get_abs(-a))
-    #rint(b)
+
+# if __name__ == '__main__':
+#     a = 4
+#     b = 9
+#     N, W, K = 5,3,2
+#     cost = [5,4,1,2,2,3]
+#     profit = [3,5,3,2,7,7]
+#     print(Solution().get_max(N, K, W, cost, profit))
+#     # #print(swap(a,b))
+#     # print(get_abs(-a))
+#     #rint(b)
+#      tabelSizeFor(16)
