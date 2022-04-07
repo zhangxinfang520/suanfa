@@ -25,13 +25,30 @@ def get_dict(nums):
 
 def get_count(x,memo):
     return memo[x]
+
+
+def get_laste_count(x,y,X,Y):
+
+    def dp(i,j):
+        if i == X and j == Y:
+            return 0
+        if i > X or j > Y :
+            return float("inf")
+        re = float("inf")
+        re = min(re,dp(i+1,j+1)+1)
+        re = min(re,dp(i*2,j*2)+1)
+        return re
+    return dp(x,y)
+
+
 if __name__ == '__main__':
-    n,m = list(map(int,sys.stdin.readline().rstrip().split()))
-    nums = list(map(int,sys.stdin.readline().rstrip().split()))
-    memo = get_dict(nums)
-    for _ in range(m):
-        x = int(sys.stdin.readline().rstrip())
-        print(get_count(x-1,memo))
+    # n,m = list(map(int,sys.stdin.readline().rstrip().split()))
+    # nums = list(map(int,sys.stdin.readline().rstrip().split()))
+    # memo = get_dict(nums)
+    # for _ in range(m):
+    #     x = int(sys.stdin.readline().rstrip())
+    #     print(get_count(x-1,memo))
+    print(get_laste_count(1,2,4,6))
 
 
 

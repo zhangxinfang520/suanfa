@@ -25,7 +25,6 @@ class Solution:
         for i in range(index+1,n):
             if nums[i] != nums[index]:
                 return [index,i-1]
-
         return [index,n-1]
 
 

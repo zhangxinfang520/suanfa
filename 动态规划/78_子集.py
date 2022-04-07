@@ -40,6 +40,12 @@ class Solution1:
             # 所以下一次搜索从 i + 1 开始
             self.backtrack(nums, i + 1, path, res)
             path.pop()
+    #求一个数组的所有子集
+    def subsets1(self, nums: List[int]) -> List[List[int]]:
+        res = [[]]
+        for n in nums:
+            res += [item + [n] for item in res]
+        return res
 
 
 class Solution:
@@ -59,6 +65,6 @@ class Solution:
         return res
 
 
-nums = [1, 2]
+nums = [1, 2, 3]
 
-print(Solution1().subsets(nums))
+print(Solution1().subsets1(nums))
