@@ -7,23 +7,18 @@
 '''
 
 import torch
-import torch.nn as nn
-
-
-def bn_process(features:torch.tensor,eps=1e-5):
+def bn_process(features:torch.tensor,eps=1e-5,gamma:float=1.0,beat:float=0.0):
     '''
-
     :param features: N * C * H * W
     :param mean:
     :param var:
     :return:
     '''
     var_mean = torch.var_mean(features,dim=[0,2,3],unbiased=False)
-    var = var_mean[0]
     mean = var_mean[1]
-    
+    var = var_mean[0]
     features = (features - mean[None,:,None,None])/ torch.sqrt(var[None,:,None,None]+eps)
-    return features
+    return gamma*features + beat
 
 
 if __name__ == '__main__':

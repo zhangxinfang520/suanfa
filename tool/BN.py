@@ -5,7 +5,7 @@
 import torch
 import torch.nn as nn
 
-def batch_norm(x,gamma,beta,moving_mean,moving_var,eps,momentum):
+def batch_norm(x,gamma,beta,moving_mean,moving_var,eps=1e-5, momentum=0.9):
     #eps 和 momentu为超参数 Hyperparameter
     #测试和训练的均值方差计算是不同的
     if not torch.is_grad_enabled():
@@ -23,12 +23,12 @@ def batch_norm(x,gamma,beta,moving_mean,moving_var,eps,momentum):
         #然后更新 moving_mean_var
         moving_mean = moving_mean*momentum + mean*(1-momentum)
         moving_var = moving_var * moving_var + var*(1-momentum)
-
     y = gamma*x_hat +beta
     return y,moving_mean,moving_var
 
+
 class BatchNorm(nn.Module):
-    def __init__(self,num_features,num_dims,**kwargs):
+    def __init__(self,num_features,num_dims):
         super(BatchNorm, self).__init__()
         self.batch_norm = batch_norm
         if num_dims==2:#如果是liner bn后的shape
